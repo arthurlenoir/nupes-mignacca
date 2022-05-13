@@ -7,8 +7,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Julia Mignacca',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  tagline: 'Élections Législatives 2022',
+  url: 'https://arthurlenoir.github.io/nupes-mignacca/',
   baseUrl: '/nupes-mignacca/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -25,8 +25,8 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'fr-FR',
+    locales: ['fr-FR'],
   },
 
   presets: [
@@ -36,13 +36,6 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
-        blog: {
-          showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -59,22 +52,39 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Accueil',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'NUPES Logo',
+          src: 'img/nupes-logo.svg',
         },
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'programme',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Programme',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            type: 'doc',
+            docId: 'agenda',
+            position: 'left',
+            label: 'Nous Rencontrer',
+          },
+          {
+            type: 'doc',
+            docId: 'presentation',
+            position: 'left',
+            label: 'Présentation',
+          },
+          {
+            href: 'https://twitter.com/JuliaMignacca',
+            label: 'Twitter',
+            position: 'right',
+            id: 'twitter'
+          },
+          {
+            href: 'https://www.facebook.com/julia.mignacca.71',
+            label: 'Facebook',
             position: 'right',
           },
         ],
