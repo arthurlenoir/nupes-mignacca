@@ -41,8 +41,13 @@
   box-sizing: border-box;
   padding: 0 16px;
 }
-.navbar__item.navbar__link {
+.navbar__item {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+@media only screen and (max-width: 996px) {
+  .navbar__item {
+    display: none;
+  }
 }
