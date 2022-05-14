@@ -34,12 +34,14 @@
   box-sizing: border-box;
   padding: 0 16px;
   margin: auto;
+  width: 100%;
 }
 .main-wrapper {
   max-width: 1200px;
   margin: auto;
   box-sizing: border-box;
   padding: 0 16px;
+  width: 100%;
 }
 .navbar__item {
   display: flex;
