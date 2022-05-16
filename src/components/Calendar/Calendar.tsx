@@ -65,7 +65,7 @@ const loadCalendarApi = (
   resolve: (value: boolean | PromiseLike<boolean>) => void,
   reject: (reason?: any) => void
 ) => {
-  window.gapi.client.load("calendar", "v3", () => {
+  window.gapi.client.load("calendar", "v3", (...args) => {
     resolve(true);
   });
 };
@@ -84,7 +84,7 @@ const renderCalendarEvent = (event: CalendarItem) => {
   const start = new Date(Date.parse(event.start.dateTime));
   const end = new Date(Date.parse(event.end.dateTime));
   return (
-    <div>
+    <div key={event.start.dateTime}>
       <SubTitle>{event.summary}</SubTitle>
       <Text>{event.description}</Text>
       <Text>{event.location}</Text>
@@ -106,7 +106,7 @@ const Calendar: React.FC = () => {
     script.setAttribute("defer", "true");
     script.setAttribute("src", "https://apis.google.com/js/api.js");
     script.addEventListener("load", async () => {
-      const success = loadCalendar();
+      const success = await loadCalendar();
       if (success) {
         const calendarEvents = await listUpcomingEvents(CALENDAR_ID);
         setEvents(calendarEvents.result.items);
