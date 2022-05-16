@@ -4,6 +4,8 @@ description: my hello page description
 hide_table_of_contents: true
 ---
 
+import Calendar from "@site/src/components/Calendar";
+import DonationForm from "@site/src/components/DonationForm";
 import Title from "@site/src/components/Title";
 import Video from "@site/src/components/Video";
 
@@ -26,3 +28,6 @@ nous pouvons gagner.
 ## Face à des politiques incapables de se renouveler, je serai une députée intègre au service de l’intérêt général.
 
 ### Ensemble, construisons cet autre monde possible !
+
+<DonationForm suggestions={[50, 100, 500]} />
+<Calendar />
