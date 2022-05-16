@@ -32,7 +32,7 @@ const SuggestedDonation: React.FC<Props> = ({
       onClick={onClick}
       variant={selectedDonation === index ? "secondary" : undefined}
     >
-      {donation.toLocaleString(navigator.language || "fr", {
+      {donation.toLocaleString("fr", {
         style: "currency",
         currencyDisplay: "narrowSymbol",
         currency: "EUR",
