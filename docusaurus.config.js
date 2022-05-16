@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Julia Mignacca',
   tagline: 'Élections Législatives 2022',
-  url: 'https://arthurlenoir.github.io/nupes-mignacca/',
+  url: 'https://arthurlenoir.github.io/',
   baseUrl: '/nupes-mignacca/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -26,7 +26,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'fr-FR',
-    locales: ['fr-FR'],
+    locales: ['fr-FR', 'oc'],
   },
 
   presets: [
@@ -35,6 +35,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: 'programme',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -60,19 +61,17 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'programme',
+            docId: 'index',
             position: 'left',
             label: 'Programme',
           },
           {
-            type: 'doc',
-            docId: 'agenda',
+            to: 'agenda',
             position: 'left',
             label: 'Nous Rencontrer',
           },
           {
-            type: 'doc',
-            docId: 'presentation',
+            to: 'notre-candidate',
             position: 'left',
             label: 'Présentation',
           },
