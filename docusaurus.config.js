@@ -8,8 +8,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Julia Mignacca',
   tagline: 'Élections Législatives 2022',
-  url: 'https://arthurlenoir.github.io/',
-  baseUrl: '/nupes-mignacca/',
+  url: 'https://www.juliamignacca.fr/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
