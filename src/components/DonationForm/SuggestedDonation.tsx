@@ -1,6 +1,6 @@
-import { Button } from "nupes-ui";
 import React, { useCallback } from "react";
 import styled, { css } from "styled-components";
+import { renderMoney } from "./renderMoney";
 
 interface Props {
   donation: number;
@@ -37,29 +37,16 @@ const DonationButton = styled(DonationContainer)`
   `}
 `;
 
-const hasDecimal = (value: number): boolean => {
-  return Math.floor(value) - value !== 0;
-};
-
 const SuggestedDonation: React.FC<Props> = ({
   donation,
   index,
   setSelectedDonation,
-  selectedDonation,
 }) => {
   const onClick = useCallback(() => {
     setSelectedDonation(index);
   }, [setSelectedDonation, index]);
-  const minimumFractionDigits = hasDecimal(donation) ? 2 : 0;
   return (
-    <DonationButton onClick={onClick}>
-      {donation.toLocaleString("fr", {
-        style: "currency",
-        currencyDisplay: "narrowSymbol",
-        currency: "EUR",
-        minimumFractionDigits,
-      })}
-    </DonationButton>
+    <DonationButton onClick={onClick}>{renderMoney(donation)}</DonationButton>
   );
 };
 

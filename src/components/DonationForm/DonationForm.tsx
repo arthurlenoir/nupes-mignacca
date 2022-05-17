@@ -1,4 +1,4 @@
-import { Button, Modal, OtherColors, Title } from "nupes-ui";
+import { OtherColors } from "nupes-ui";
 import React, { useCallback, useMemo, useState } from "react";
 import styled, { css } from "styled-components";
 import { ArrowIcon } from "../Icons";
@@ -50,6 +50,7 @@ const CustomInputSubmit = styled.button`
   outline: 0;
   margin: 0 0 0 8px;
   border-radius: 8px;
+  cursor: pointer;
   ${({ theme }) => css`
     background-color: ${theme.colors.primary.background};
   `}
@@ -57,9 +58,10 @@ const CustomInputSubmit = styled.button`
 
 interface Props {
   suggestions?: number[];
+  children: React.ReactNode;
 }
 
-const DonationForm: React.FC<Props> = ({ suggestions }) => {
+const DonationForm: React.FC<Props> = ({ suggestions, children }) => {
   const [selectedDonation, setSelectedDonation] = useState<number>(-1);
   const [modalVisible, setModalVisible] = useState<boolean>(false);
   const [customAmount, setCustomAmount] = useState<string>("");
@@ -69,22 +71,35 @@ const DonationForm: React.FC<Props> = ({ suggestions }) => {
     () => setModalVisible(false),
     [setModalVisible]
   );
+  const selectDonation = useCallback(
+    (index: number) => {
+      setSelectedDonation(index);
+      showModal();
+    },
+    [showModal, setSelectedDonation]
+  );
   const selectedAmount = useMemo(() => {
-    if (selectedDonation < 0 || selectedDonation >= suggestions.length)
+    if (selectedDonation < 0 || selectedDonation >= suggestions.length) {
+      const customAmountAsNumber = parseFloat(customAmount);
+      if (!isNaN(customAmountAsNumber)) {
+        return customAmountAsNumber;
+      }
       return 0;
+    }
     return suggestions[selectedDonation];
-  }, [suggestions, selectedDonation]);
+  }, [suggestions, selectedDonation, customAmount]);
+
   const renderSuggestion = useCallback(
     (suggestedDonation: number, index: number) => (
       <SuggestedDonation
         key={index}
         index={index}
         donation={suggestedDonation}
-        setSelectedDonation={setSelectedDonation}
+        setSelectedDonation={selectDonation}
         selectedDonation={selectedDonation}
       />
     ),
-    [setSelectedDonation, selectedDonation]
+    [selectDonation, selectedDonation]
   );
 
   const onCustomAmountChange = useCallback(
@@ -112,6 +127,7 @@ const DonationForm: React.FC<Props> = ({ suggestions }) => {
               <CustomInput
                 value={customAmount}
                 onChange={onCustomAmountChange}
+                type="number"
               />
               <span>€</span>
             </CustomInputContainer>
@@ -120,6 +136,7 @@ const DonationForm: React.FC<Props> = ({ suggestions }) => {
             </CustomInputSubmit>
           </DonationContainer>
         </DonationSuggestionListContainer>
+        {children}
         <DonationModal
           visible={modalVisible}
           close={hideModal}
@@ -131,5 +148,3 @@ const DonationForm: React.FC<Props> = ({ suggestions }) => {
 };
 
 export default DonationForm;
-
-// https://script.google.com/macros/s/AKfycbwPLxUkHeXSDjbQbSHXejWCKY1P0AuWk9oVm0XExQzuJYZJAI1mneojEuEUa2eIMcZ-/exec?lastName=Lenoir&firstName=Arthur&amount=1000&email=lenoir.arthur@gmail.com&phone=0661229371
