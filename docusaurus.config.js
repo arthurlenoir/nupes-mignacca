@@ -28,7 +28,11 @@ const config = {
     defaultLocale: 'fr-FR',
     locales: ['fr-FR', 'oc'],
   },
-
+  plugins: ['docusaurus-plugin-matomo'],
+  scripts: [{
+    src: '/js/matomo.js',
+    async: false,
+  }],
   presets: [
     [
       'classic',
@@ -95,6 +99,12 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+      },
+      matomo: {
+        matomoUrl: 'https://matomo.noussommes.org/',
+        siteId: '2',
+        phpLoader: 'matomo.php',
+        jsLoader: 'matomo.js',
       },
     }),
 };
