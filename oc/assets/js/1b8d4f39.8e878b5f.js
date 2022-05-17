@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[680],{1930:function(a){a.exports=JSON.parse('{"label":"hola","permalink":"/nupes-mignacca/oc/blog/tags/hola","allTagsPath":"/nupes-mignacca/oc/blog/tags","count":1}')}}]);
