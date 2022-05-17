@@ -59,7 +59,7 @@ const config = {
           src: 'img/nupes-logo.svg',
         },
         items: [
-          {
+          /*{
             type: 'doc',
             docId: 'index',
             position: 'left',
@@ -74,7 +74,7 @@ const config = {
             to: 'notre-candidate',
             position: 'left',
             label: 'Présentation',
-          },
+          },*/
           {
             href: 'https://twitter.com/JuliaMignacca',
             label: 'Twitter',
