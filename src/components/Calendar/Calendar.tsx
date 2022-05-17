@@ -1,8 +1,34 @@
 import { SubTitle, Text, Title } from "nupes-ui";
 import React, { useEffect, useState } from "react";
+import styled from "styled-components";
 
 const GOOGLE_API_KEY = "AIzaSyBB_V3txxLD4sjtR0xXayV2ZNcqD8Z_NIM";
 const CALENDAR_ID = "mldcdlabt7ku11r1jnpq65juos@group.calendar.google.com";
+
+const EventContainer = styled.div`
+  margin: 0 0 32px;
+`;
+
+const EventTitle = styled(SubTitle)`
+  margin-bottom: 4px;
+`;
+
+const DateContainer = styled(Text)`
+  font-weight: bold;
+  margin-bottom: 2px;
+  line-height: 1.2em;
+`;
+
+const EventDescription = styled(Text)`
+  margin-bottom: 2px;
+  line-height: 1.2em;
+`;
+
+const EventLocation = styled(Text)`
+  margin-bottom: 2px;
+  font-style: italic;
+  line-height: 1.2em;
+`;
 
 declare global {
   interface Window {
@@ -83,17 +109,23 @@ function listUpcomingEvents(calendarId: string) {
 const renderCalendarEvent = (event: CalendarItem) => {
   const start = new Date(Date.parse(event.start.dateTime));
   const end = new Date(Date.parse(event.end.dateTime));
+  console.log("event", event);
+  const location = event.location
+    ? event.location.replace(/, France$/, "")
+    : "";
   return (
-    <div key={event.start.dateTime}>
-      <SubTitle>{event.summary}</SubTitle>
-      <Text>{event.description}</Text>
-      <Text>{event.location}</Text>
-      <Text>
+    <EventContainer key={event.start.dateTime}>
+      <EventTitle>{event.summary}</EventTitle>
+      <DateContainer>
         {start.toLocaleDateString()}:{" "}
         {start.toLocaleTimeString(undefined, { timeStyle: "short" })} -{" "}
         {end.toLocaleTimeString(undefined, { timeStyle: "short" })}
-      </Text>
-    </div>
+      </DateContainer>
+      {location && <EventLocation>{location}</EventLocation>}
+      {event.description && (
+        <EventDescription>{event.description}</EventDescription>
+      )}
+    </EventContainer>
   );
 };
 
@@ -117,12 +149,7 @@ const Calendar: React.FC = () => {
 
   if (!events) return <div>chargement...</div>;
 
-  return (
-    <>
-      <Title variant="light-secondary">Nous recontrer</Title>
-      {events.map(renderCalendarEvent)}
-    </>
-  );
+  return <>{events.map(renderCalendarEvent)}</>;
 };
 
 export default Calendar;

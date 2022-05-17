@@ -54,8 +54,16 @@
 .searchBox_node_modules-\@docusaurus-theme-classic-lib-next-theme-Navbar-Search-styles-module {
   display: none;
 }
+.margin-vert--lg {
+  margin: 16px 0 !important;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
 @media (min-width: 997px) {
-  .container .generatedIndexPage_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocCategoryGeneratedIndexPage-styles-module {
+  .container
+    .generatedIndexPage_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocCategoryGeneratedIndexPage-styles-module {
     max-width: 100% !important;
   }
 }
