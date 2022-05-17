@@ -50,7 +50,7 @@ const DonationForm: React.FC<Props> = ({ suggestions }) => {
 
   return (
     <>
-      <Title variant="primary">Soutenir la campagne</Title>
+      <Title variant="light-primary">Soutenir la campagne</Title>
       <DonationContainer>
         <DonationSuggestionListContainer>
           {suggestions && suggestions.map(renderSuggestion)}

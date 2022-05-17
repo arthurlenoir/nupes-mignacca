@@ -119,7 +119,7 @@ const Calendar: React.FC = () => {
 
   return (
     <>
-      <Title variant="secondary">Nous recontrer</Title>
+      <Title variant="light-secondary">Nous recontrer</Title>
       {events.map(renderCalendarEvent)}
     </>
   );

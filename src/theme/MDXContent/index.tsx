@@ -10,8 +10,14 @@ export default function MDXContent({ children }: Props): JSX.Element {
       components={{
         ...MDXComponents,
         h1: ({ children }) => <Title variant="primary">{children}</Title>,
-        h2: ({ children }) => <SubTitle>{children}</SubTitle>,
-        h3: ({ children }) => <SubTitle>{children}</SubTitle>,
+        h2: ({ children }) => <Title variant="light-primary">{children}</Title>,
+        h3: ({ children }) => (
+          <Title variant="light-secondary">{children}</Title>
+        ),
+        h4: ({ children }) => <SubTitle variant="primary">{children}</SubTitle>,
+        h5: ({ children }) => (
+          <SubTitle variant="secondary">{children}</SubTitle>
+        ),
         p: Text,
       }}
     >
