@@ -6,11 +6,19 @@ import {
   loadGoogleApi,
 } from "./GoogleCalendar";
 import Text from "../Text";
+import styled from "styled-components";
 
 interface Props {
   calendarId: string;
   googleApiKey: string;
 }
+
+const EventsContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  margin: -8px;
+  flex-wrap: wrap;
+`;
 
 const renderCalendarEvent = (event: CalendarItem) => (
   <CalendarEvent key={event.start.dateTime} event={event} />
@@ -27,7 +35,7 @@ const Calendar: React.FC<Props> = ({ calendarId, googleApiKey }) => {
 
   if (!events) return <Text>chargement du calendrier...</Text>;
 
-  return <>{events.map(renderCalendarEvent)}</>;
+  return <EventsContainer>{events.map(renderCalendarEvent)}</EventsContainer>;
 };
 
 export default Calendar;

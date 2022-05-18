@@ -1,3 +1,4 @@
+import { Highlight } from "nupes-ui";
 import React from "react";
 import styled from "styled-components";
 import SubTitle from "../SubTitle";
@@ -9,22 +10,44 @@ interface Props {
 }
 
 const EventContainer = styled.div`
-  margin: 0 0 32px;
+  margin: 0 8px 32px;
+  border: 1px solid #eeeeee;
+  padding: 16px 12px;
+  min-width: 300px;
+  flex: 1 1 auto;
+`;
+
+const EventSummary = styled.div`
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  white-space: nowrap;
+`;
+
+const SmallHighlight = styled(Highlight)`
+  ::before {
+    left: 0;
+    right: 0;
+  }
 `;
 
 const EventTitle = styled(SubTitle)`
-  margin-bottom: 4px;
+  flex: 1;
+  white-space: normal;
+  font-family: "Acumin Pro Condensed Black";
+  margin: 0;
+  text-align: right;
 `;
 
 const DateContainer = styled(Text)`
-  font-weight: bold;
-  margin-bottom: 2px;
+  margin: 4px 8px 0 0;
   line-height: 1.2em;
 `;
 
-const EventDescription = styled(Text)`
-  margin-bottom: 2px;
-  line-height: 1.2em;
+const TimeContainer = styled(Text)`
+  margin: 5px 8px 0 0;
+  font-family: "Acumin Pro Condensed Black";
 `;
 
 const EventLocation = styled(Text)`
@@ -41,16 +64,22 @@ const CalendarEvent: React.FC<Props> = ({ event }) => {
     : "";
   return (
     <EventContainer key={event.start.dateTime}>
-      <EventTitle>{event.summary}</EventTitle>
-      <DateContainer>
-        {start.toLocaleDateString()}:{" "}
-        {start.toLocaleTimeString(undefined, { timeStyle: "short" })} -{" "}
-        {end.toLocaleTimeString(undefined, { timeStyle: "short" })}
-      </DateContainer>
+      <EventSummary>
+        <DateContainer>
+          <SmallHighlight>
+            {start.toLocaleDateString(undefined, {
+              day: "2-digit",
+              month: "long",
+            })}
+          </SmallHighlight>
+        </DateContainer>
+        <TimeContainer>
+          {start.toLocaleTimeString(undefined, { timeStyle: "short" })} -{" "}
+          {end.toLocaleTimeString(undefined, { timeStyle: "short" })}
+        </TimeContainer>
+        <EventTitle>{event.summary}</EventTitle>
+      </EventSummary>
       {location && <EventLocation>{location}</EventLocation>}
-      {event.description && (
-        <EventDescription>{event.description}</EventDescription>
-      )}
     </EventContainer>
   );
 };
