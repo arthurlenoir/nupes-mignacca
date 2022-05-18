@@ -91,6 +91,12 @@ const config = {
             position: 'right',
             id: 'facebook'
           },
+          {
+            href: 'https://www.instagram.com/julia.mignacca/',
+            label: 'Instagram',
+            position: 'right',
+            id: 'instagram'
+          }
         ],
       },
       colorMode: {
