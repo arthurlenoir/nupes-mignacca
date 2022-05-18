@@ -19,7 +19,7 @@ const DonationModal: React.FC<Props> = ({ visible, close, selectedAmount }) => {
 
   return (
     <Modal visible={visible} close={close}>
-      <Title variant="primary">Soutenir la campagne</Title>
+      <Title variant="light-primary">Soutenir la campagne</Title>
       {finalAmount ? (
         <DonatorDataForm selectedAmount={finalAmount} close={close} />
       ) : (

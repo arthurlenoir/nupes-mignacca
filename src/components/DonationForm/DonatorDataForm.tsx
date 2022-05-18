@@ -1,4 +1,4 @@
-import { Button, Title } from "nupes-ui";
+import { Button, Input, Title } from "nupes-ui";
 import React, { useCallback, useState } from "react";
 import styled, { css } from "styled-components";
 import Text from "../Text";
@@ -49,13 +49,13 @@ const DonatorDataForm: React.FC<Props> = ({ close, selectedAmount }) => {
   return (
     <form onSubmit={onSubmit}>
       <Text>
-        Merci de remplir de formulaire suivant, nous vous recontacterons
+        Merci de remplir le formulaire suivant, nous vous recontacterons
         prochainement pour finaliser votre don.
       </Text>
-      <StyledInput
+      <Input
+        label="Prénom"
         type="text"
         name="firstName"
-        placeholder="Prénom"
         value={firstName}
         onChange={(e: React.FormEvent<HTMLInputElement>) => {
           setFirstName(e.currentTarget.value);
@@ -63,30 +63,30 @@ const DonatorDataForm: React.FC<Props> = ({ close, selectedAmount }) => {
         autoComplete="on"
         autoFocus
       />
-      <StyledInput
+      <Input
         type="text"
         name="lastName"
-        placeholder="Nom"
+        label="Nom"
         value={lastName}
         onChange={(e: React.FormEvent<HTMLInputElement>) => {
           setLastName(e.currentTarget.value);
         }}
         autoComplete="on"
       />
-      <StyledInput
+      <Input
         type="email"
         name="email"
-        placeholder="adresse e-mail"
+        label="adresse e-mail"
         value={email}
         onChange={(e: React.FormEvent<HTMLInputElement>) => {
           setEmail(e.currentTarget.value);
         }}
         autoComplete="on"
       />
-      <StyledInput
+      <Input
         type="phone"
         name="phone"
-        placeholder="Téléphone"
+        label="Téléphone"
         value={phone}
         onChange={(e: React.FormEvent<HTMLInputElement>) => {
           setPhone(e.currentTarget.value);
