@@ -14,7 +14,7 @@ const EventContainer = styled.div`
   border: 1px solid #eeeeee;
   padding: 16px 12px;
   min-width: 300px;
-  flex: 1 1 auto;
+  flex: 1 1 40%;
 `;
 
 const EventSummary = styled.div`

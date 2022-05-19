@@ -69,7 +69,7 @@ export const listUpcomingEvents = (calendarId: string) => {
     calendarId,
     showDeleted: false,
     singleEvents: true,
-    maxResults: 1000,
+    maxResults: 6,
     orderBy: "startTime",
   });
 };

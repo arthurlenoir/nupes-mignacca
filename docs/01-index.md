@@ -1,32 +1,17 @@
 ---
 sidebar_position: 1
 hide_table_of_contents: true
+hide_title: true
+title: Un programme partagé de gouvernement
 ---
+#### Un programme partagé de gouvernement
 
-# Notre programme
+**Le programme partagé de gouvernement ici présenté est le fruit d’un travail collectif associant plusieurs organisations politiques, sur la base de programmes eux-mêmes élaborés en associant des milliers de citoyennes et citoyens, acteurs associatifs, syndicaux, environnementaux, politiques.**
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras commodo posuere ante id scelerisque. Aliquam eget ipsum posuere, fermentum augue sit amet, cursus tellus. Sed lorem ipsum, faucibus faucibus dui sed, faucibus blandit magna. Nam sit amet nisl in justo luctus porttitor. Proin laoreet non nisl eu tempor. Mauris convallis commodo neque vitae elementum. Donec quis commodo ipsum. Donec ex nulla, sollicitudin et facilisis eget, gravida at ex. 
+Il sera la feuille de route partagée du gouvernement de la Nouvelle Union populaire écologique et sociale. Notre majorité parlementaire sera composée à l’Assemblée nationale de plusieurs groupes politiques réunis au sein d’un intergroupe. Il servira de lieu de discussion et de coordination permanente entre ses différentes composantes. Cette majorité soutiendra ensemble l’action du gouvernement, notamment en votant pour les budgets et les projets législatifs présentés qui émanent des propositions de ce programme partagé.
 
-## Une écologie populaire
+Mais dans notre conception de la République, le rôle des députés, représentants du peuple, ne saurait se limiter à soutenir l’action d’un gouvernement. Nous ne voulons pas reproduire les mécanismes de la monarchie présidentielle et de ses majorités godillotes. Cette logique solitaire et verticale du pouvoir a été poussée à l’extrême par Emmanuel Macron. Il nous faut en sortir. Nous défendons une pratique démocratique des institutions où le Parlement est l’endroit par excellence où les décisions sont élaborées, délibérées et prises. Nous souhaitons ainsi que l’intergroupe puisse être le lieu d’élaboration de propositions de lois au-delà même de celles prévues par ce programme partagé, ainsi qu’un lieu de débat, d’échange et de décision. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras commodo posuere ante id scelerisque. Aliquam eget ipsum posuere, fermentum augue sit amet, cursus tellus. Sed lorem ipsum, faucibus faucibus dui sed, faucibus blandit magna. Nam sit amet nisl in justo luctus porttitor. Proin laoreet non nisl eu tempor. Mauris convallis commodo neque vitae elementum. Donec quis commodo ipsum. Donec ex nulla, sollicitudin et facilisis eget, gravida at ex. 
+Nous ferons une grande place dans les travaux législatifs de l’Assemblée, à l’initiative parlementaire. La majorité parlementaire de la Nouvelle Union populaire écologique et sociale conservera tout au long du mandat des liens très forts avec la société active et notamment le monde syndical, associatif, les organisations non gouvernementales (ONG), les collectifs en lutte, les intellectuels, etc. Son intergroupe se réunira régulièrement avec le Parlement de la Nouvelle Union populaire écologique et sociale pour nourrir le débat parlementaire des aspirations et des réflexions de ces forces vives.
 
-### Pour un territoire résilient
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras commodo posuere ante id scelerisque. Aliquam eget ipsum posuere, fermentum augue sit amet, cursus tellus. Sed lorem ipsum, faucibus faucibus dui sed, faucibus blandit magna. Nam sit amet nisl in justo luctus porttitor. Proin laoreet non nisl eu tempor. Mauris convallis commodo neque vitae elementum. Donec quis commodo ipsum. Donec ex nulla, sollicitudin et facilisis eget, gravida at ex. 
-
-### En aussi cela
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras commodo posuere ante id scelerisque. Aliquam eget ipsum posuere, fermentum augue sit amet, cursus tellus. Sed lorem ipsum, faucibus faucibus dui sed, faucibus blandit magna. Nam sit amet nisl in justo luctus porttitor. Proin laoreet non nisl eu tempor. Mauris convallis commodo neque vitae elementum. Donec quis commodo ipsum. Donec ex nulla, sollicitudin et facilisis eget, gravida at ex. 
-
-## Title social
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras commodo posuere ante id scelerisque. Aliquam eget ipsum posuere, fermentum augue sit amet, cursus tellus. Sed lorem ipsum, faucibus faucibus dui sed, faucibus blandit magna. Nam sit amet nisl in justo luctus porttitor. Proin laoreet non nisl eu tempor. Mauris convallis commodo neque vitae elementum. Donec quis commodo ipsum. Donec ex nulla, sollicitudin et facilisis eget, gravida at ex. 
-
-### Sous title
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras commodo posuere ante id scelerisque. Aliquam eget ipsum posuere, fermentum augue sit amet, cursus tellus. Sed lorem ipsum, faucibus faucibus dui sed, faucibus blandit magna. Nam sit amet nisl in justo luctus porttitor. Proin laoreet non nisl eu tempor. Mauris convallis commodo neque vitae elementum. Donec quis commodo ipsum. Donec ex nulla, sollicitudin et facilisis eget, gravida at ex. 
-
-### sous title 2
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras commodo posuere ante id scelerisque. Aliquam eget ipsum posuere, fermentum augue sit amet, cursus tellus. Sed lorem ipsum, faucibus faucibus dui sed, faucibus blandit magna. Nam sit amet nisl in justo luctus porttitor. Proin laoreet non nisl eu tempor. Mauris convallis commodo neque vitae elementum. Donec quis commodo ipsum. Donec ex nulla, sollicitudin et facilisis eget, gravida at ex. 
+**Cette méthode générale, nous nous l’appliquons à nous-mêmes.** Ce cadre permettra de combiner la diversité des expressions et la cohérence des décisions. **Nous avons refusé les facilités des synthèses sans contenu pour masquer les désaccords lorsque nous ne sommes pas parvenus à les surmonter dans le bref délai dont nous disposions.** En effet, sur quelques points du programme partagé de gouvernement – 33 sur 650 –, des organisations politiques qui soutiennent ce programme porteront dans le débat parlementaire des propositions pour les préciser ou les nuancer. **Leur liberté de vote sera respectée. Nous n’avons rien voulu cacher sur ce sujet et c’est pourquoi, si limités qu’ils soient, ces points sont consignés** à la fin de chaque chapitre du programme partagé de gouvernement. Ils seront donc soumis au débat de l’intergroupe et à la sagesse de l’Assemblée.

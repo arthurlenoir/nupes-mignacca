@@ -62,12 +62,13 @@ const config = {
           alt: 'NUPES Logo',
           src: 'img/nupes-logo.svg',
         },
-        items: [/*{
-          to: "notre-programme",
+        items: [{
+          type: 'doc',
+          docId: 'index',
           position: 'left',
           label: 'Programme',
         },
-        {
+        /*{
           to: 'notre-candidate',
           position: 'left',
           label: 'Présentation',

@@ -13,10 +13,14 @@ const ListItemContainer = styled.li`
   align-items: flex-start;
   justify-content: flex-start;
   margin: 0 0 16px;
+  ul {
+    margin: 16px 0 16px 16px;
+  }
 `;
 
 const StyledArrow = styled(ArrowIcon)`
   margin: 2px 4px 0 0;
+  flex: 0 0 12px;
 `;
 
 const StyledText = styled(Text)`
