@@ -9,6 +9,7 @@ import { isRegexpStringMatch } from "@docusaurus/theme-common";
 import TwitterLogo from "@site/static/img/twitter.svg";
 import FacebookLogo from "@site/static/img/facebook.svg";
 import InstagramLogo from "@site/static/img/instagram.svg";
+import TelegramLogo from "@site/static/img/telegram.svg";
 
 const dropdownLinkActiveClass = "dropdown__link--active";
 
@@ -80,6 +81,18 @@ export default function NavbarNavLink({
         {...linkContentProps}
       >
         <InstagramLogo width={28} height={28} />
+      </Link>
+    );
+  }
+
+  if (id === "telegram") {
+    return (
+      <Link
+        href={prependBaseUrlToHref ? normalizedHref : href}
+        {...props}
+        {...linkContentProps}
+      >
+        <TelegramLogo width={28} height={28} />
       </Link>
     );
   }

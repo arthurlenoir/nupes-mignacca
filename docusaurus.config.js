@@ -62,7 +62,16 @@ const config = {
           alt: 'NUPES Logo',
           src: 'img/nupes-logo.svg',
         },
-        items: [
+        items: [/*{
+          to: "notre-programme",
+          position: 'left',
+          label: 'Programme',
+        },
+        {
+          to: 'notre-candidate',
+          position: 'left',
+          label: 'Présentation',
+        },*/
           /*{
             type: 'doc',
             docId: 'index',
@@ -96,7 +105,13 @@ const config = {
             label: 'Instagram',
             position: 'right',
             id: 'instagram'
-          }
+          },
+          {
+            href: 'https://t.me/juliamignacca',
+            label: 'Telegram',
+            position: 'right',
+            id: 'telegram'
+          },
         ],
       },
       colorMode: {
