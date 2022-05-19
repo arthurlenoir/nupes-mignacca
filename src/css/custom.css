@@ -59,6 +59,9 @@ ul {
   margin: 0;
   padding: 0;
 }
+.theme-doc-footer {
+  display: none;
+}
 @media (min-width: 997px) {
   .container
     .generatedIndexPage_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocCategoryGeneratedIndexPage-styles-module {
