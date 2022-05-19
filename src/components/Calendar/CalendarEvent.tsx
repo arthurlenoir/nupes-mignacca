@@ -10,7 +10,7 @@ interface Props {
 }
 
 const EventContainer = styled.div`
-  margin: 0 8px 32px;
+  margin: 0 8px 16px;
   border: 1px solid #eeeeee;
   padding: 16px 12px;
   min-width: 300px;
