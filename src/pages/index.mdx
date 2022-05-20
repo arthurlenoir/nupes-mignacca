@@ -6,9 +6,12 @@ hide_table_of_contents: true
 
 import Calendar from "@site/src/components/Calendar";
 import DonationForm from "@site/src/components/DonationForm";
+import Gauge from "@site/src/components/Gauge";
+import GaugeLabel from "@site/src/components/GaugeLabel";
 import Header from "@site/src/components/Header";
 import LogoSoup from "@site/src/components/LogoSoup";
 import NupesLogo from "@site/src/components/NupesLogo";
+import Text from "@site/src/components/Text";
 import Video from "@site/src/components/Video";
 
 <NupesLogo />
@@ -30,14 +33,19 @@ Face au changement climatique et à la casse du service public, **ensemble nous 
 > Ensemble construisons cet autre monde possible !
 
 ## Soutenir la campagne
-<DonationForm suggestions={[20, 50, 100]}>
+
+<DonationForm suggestions={[20, 50, 100]} value={2650} target={4000}>
 
 Pour financer les dépenses liées à l’organisation d’événements, à l’achat de matériel, au fonctionnement de ce site, etc, nous avons besoin du soutien financier de chacun·e d’entre vous.
 
 </DonationForm>
 
 ### Nous rencontrer
-<Calendar googleApiKey="AIzaSyBB_V3txxLD4sjtR0xXayV2ZNcqD8Z_NIM" calendarId="mldcdlabt7ku11r1jnpq65juos@group.calendar.google.com" />
+
+<Calendar
+  googleApiKey="AIzaSyBB_V3txxLD4sjtR0xXayV2ZNcqD8Z_NIM"
+  calendarId="mldcdlabt7ku11r1jnpq65juos@group.calendar.google.com"
+/>
 
 ## Notre programme
 
@@ -51,4 +59,5 @@ et d’imposer un Premier ministre à Macron !
 - Passer à la **6ème République** pour une véritable démocratie
 
 ### Avec le soutien de :
+
 <LogoSoup />

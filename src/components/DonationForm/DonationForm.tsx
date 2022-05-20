@@ -1,6 +1,7 @@
-import { OtherColors } from "nupes-ui";
+import { Gauge, OtherColors } from "nupes-ui";
 import React, { useCallback, useMemo, useState } from "react";
 import styled, { css } from "styled-components";
+import GaugeLabel from "../GaugeLabel";
 import { ArrowIcon } from "../Icons";
 import DonationModal from "./DonationModal";
 import SuggestedDonation, { DonationContainer } from "./SuggestedDonation";
@@ -58,10 +59,17 @@ const CustomInputSubmit = styled.button`
 
 interface Props {
   suggestions?: number[];
+  value?: number;
+  target?: number;
   children: React.ReactNode;
 }
 
-const DonationForm: React.FC<Props> = ({ suggestions, children }) => {
+const DonationForm: React.FC<Props> = ({
+  suggestions,
+  value,
+  target,
+  children,
+}) => {
   const [selectedDonation, setSelectedDonation] = useState<number>(-1);
   const [modalVisible, setModalVisible] = useState<boolean>(false);
   const [customAmount, setCustomAmount] = useState<string>("");
@@ -136,6 +144,12 @@ const DonationForm: React.FC<Props> = ({ suggestions, children }) => {
             </CustomInputSubmit>
           </DonationContainer>
         </DonationSuggestionListContainer>
+        {!!value && !!target && (
+          <Gauge value={value} target={target}>
+            <GaugeLabel value={value} target={target} />
+          </Gauge>
+        )}
+
         {children}
         <DonationModal
           visible={modalVisible}
