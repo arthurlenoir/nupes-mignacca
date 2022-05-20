@@ -88,6 +88,7 @@ ul {
   font-size: 14px;
   padding: 0 8px;
   font-style: italic;
+  text-align: center;
 }
 @media (min-width: 997px) {
   .container
