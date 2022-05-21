@@ -69,3 +69,36 @@
   font-size: 13px;
   color: #696969;
 }
+
+.dataFormButton {
+  width: 100%;
+  margin: 24px 0 16px;
+}
+
+.importantText {
+  font-weight: bold;
+}
+
+.highlightedAmount {
+  height: 24px;
+  vertical-align: middle;
+  padding: 3px 12px 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1em;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.styledButton {
+  display: block;
+  width: 100%;
+  margin: 16px 0 8px;
+  height: auto;
+  padding: 8px;
+}
+
+.buttonFirstLine {
+  font-weight: bold;
+}

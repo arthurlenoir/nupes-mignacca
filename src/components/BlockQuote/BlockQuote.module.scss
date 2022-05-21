@@ -1,6 +1,4 @@
-import styled from "styled-components";
-
-const BlockQuote = styled.blockquote`
+.BlockQuote {
   text-align: center;
   margin: 32px auto 32px;
   border: 0;
@@ -10,6 +8,4 @@ const BlockQuote = styled.blockquote`
   p {
     font-size: 22px;
   }
-`;
-
-export default BlockQuote;
+}

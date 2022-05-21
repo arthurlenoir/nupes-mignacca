@@ -28,7 +28,7 @@ const config = {
     defaultLocale: 'fr-FR',
     locales: ['fr-FR', 'oc'],
   },
-  plugins: ['docusaurus-plugin-matomo'],
+  plugins: ['docusaurus-plugin-matomo', 'docusaurus-plugin-sass'],
   scripts: [{
     src: '/js/matomo.js',
     async: false,

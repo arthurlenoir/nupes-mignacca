@@ -1,34 +1,13 @@
-import { Button, Input, Title } from "nupes-ui";
+import { Button, Input } from "nupes-ui";
 import React, { useCallback, useState } from "react";
-import styled, { css } from "styled-components";
-import Text from "../Text";
+import Text from "../Text/Text";
 import { useSaveDonation } from "./hooks";
+import styles from "./Donation.module.css";
 
 interface Props {
   close: () => void;
   selectedAmount: number;
 }
-
-const StyledInput = styled.input`
-  font-family: "Acumin Pro";
-  font-size: 18px;
-  border: 0;
-  border-bottom: 2px solid black;
-  height: 24px;
-  padding: 0;
-  margin: 0 0 24px;
-  display: block;
-  outline: 0;
-  width: 100%;
-  ${({ theme }) => css`
-    border-color: ${theme.colors.primary.background};
-  `}
-`;
-
-const StyledButton = styled(Button)`
-  width: 100%;
-  margin: 24px 0 16px;
-`;
 
 const DonatorDataForm: React.FC<Props> = ({ close, selectedAmount }) => {
   const [firstName, setFirstName] = useState<string>("");
@@ -93,9 +72,14 @@ const DonatorDataForm: React.FC<Props> = ({ close, selectedAmount }) => {
         }}
         autoComplete="on"
       />
-      <StyledButton type="submit" variant="primary" size="big">
+      <Button
+        type="submit"
+        variant="primary"
+        size="big"
+        className={styles.dataFormButton}
+      >
         Valider
-      </StyledButton>
+      </Button>
     </form>
   );
 };

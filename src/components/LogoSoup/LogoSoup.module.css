@@ -1,0 +1,14 @@
+.LogosSoupContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 48px 0;
+  gap: 24px 54px;
+  width: 100%;
+}
+
+.LogoContainer {
+  flex: 1 0 150px;
+  text-align: center;
+}
