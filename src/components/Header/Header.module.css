@@ -1,0 +1,21 @@
+.headerContainer {
+  display: flex;
+  height: 40vh;
+  text-align: center;
+  justify-content: center;
+  align-items: flex-end;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin: 0 -1rem 24px;
+}
+
+.headerImage {
+  max-height: 100%;
+  max-width: 100%;
+}
+@media only screen and (max-width: 996px) {
+  .header-container {
+    height: 25vh;
+  }
+}

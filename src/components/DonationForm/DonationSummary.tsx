@@ -1,8 +1,9 @@
 import { Button } from "nupes-ui";
 import React, { useCallback, useMemo } from "react";
 import styled, { css } from "styled-components";
-import Text from "../Text";
+import Text from "../Text/Text";
 import { renderMoney } from "./renderMoney";
+import styles from "./Donation.module.css";
 
 interface Props {
   selectedAmount: number;
@@ -39,13 +40,6 @@ const StyledButton = styled(Button)`
 
 const ButtonFirstLine = styled.div`
   font-weight: bold;
-`;
-const ButtonSecondLine = styled.div``;
-
-const Disclaimer = styled(Text)`
-  margin: 32px 0 16px;
-  font-size: 13px;
-  color: #696969;
 `;
 
 const incomeTaxReduction = 0.34;
@@ -87,9 +81,7 @@ const DonationSummary: React.FC<Props> = ({
         onClick={keepInitialAmount}
       >
         <ButtonFirstLine>Donner {renderMoney(selectedAmount)}</ButtonFirstLine>
-        <ButtonSecondLine>
-          soit {renderMoney(costAfterDiscount)} après réduction d'impôt
-        </ButtonSecondLine>
+        <div>soit {renderMoney(costAfterDiscount)} après réduction d'impôt</div>
       </StyledButton>
       <StyledButton
         size="big"
@@ -99,16 +91,14 @@ const DonationSummary: React.FC<Props> = ({
         <ButtonFirstLine>
           Donner {renderMoney(donationSuggestion)}
         </ButtonFirstLine>
-        <ButtonSecondLine>
-          soit {renderMoney(selectedAmount)} après réduction d'impôt
-        </ButtonSecondLine>
+        <div>soit {renderMoney(selectedAmount)} après réduction d'impôt</div>
       </StyledButton>
-      <Disclaimer>
+      <Text className={styles.disclaimer}>
         Les dons sont destinés à l’AFE Julia Mignacca 2022, déclarée à la
         préfecture de l'Hérault, seule habilitée à recevoir les dons en faveur
         du candidate Julia Mignacca, dans le cadre de la campagne pour
         l’élection législatives de 2022.
-      </Disclaimer>
+      </Text>
     </div>
   );
 };

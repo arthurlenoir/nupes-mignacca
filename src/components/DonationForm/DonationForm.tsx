@@ -1,61 +1,11 @@
-import { Gauge, OtherColors } from "nupes-ui";
+import { Gauge } from "nupes-ui";
 import React, { useCallback, useMemo, useState } from "react";
-import styled, { css } from "styled-components";
+import { useTheme } from "styled-components";
 import GaugeLabel from "../GaugeLabel";
 import { ArrowIcon } from "../Icons";
 import DonationModal from "./DonationModal";
-import SuggestedDonation, { DonationContainer } from "./SuggestedDonation";
-
-const DonationsContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-`;
-
-const DonationSuggestionListContainer = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 8px -8px;
-  flex-wrap: wrap;
-  align-self: stretch;
-`;
-
-const CustomInputContainer = styled.div`
-  display: flex;
-  align-items: center;
-  align-self: stretch;
-  background-color: ${OtherColors.WHITE};
-  border-radius: 8px;
-  padding: 0 8px;
-`;
-const CustomInput = styled.input`
-  flex: 1;
-  width: 1%;
-  background: none;
-  border: 0;
-  min-width: 0;
-  align-self: stretch;
-  font-size: 18px;
-  line-height: 100%;
-  text-align: center;
-`;
-
-const CustomInputSubmit = styled.button`
-  height: 43px;
-  flex: 0 0 43px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 0;
-  outline: 0;
-  margin: 0 0 0 8px;
-  border-radius: 8px;
-  cursor: pointer;
-  ${({ theme }) => css`
-    background-color: ${theme.colors.primary.background};
-  `}
-`;
+import SuggestedDonation from "./SuggestedDonation";
+import styles from "./Donation.module.css";
 
 interface Props {
   suggestions?: number[];
@@ -70,6 +20,7 @@ const DonationForm: React.FC<Props> = ({
   target,
   children,
 }) => {
+  const theme = useTheme();
   const [selectedDonation, setSelectedDonation] = useState<number>(-1);
   const [modalVisible, setModalVisible] = useState<boolean>(false);
   const [customAmount, setCustomAmount] = useState<string>("");
@@ -127,23 +78,36 @@ const DonationForm: React.FC<Props> = ({
 
   return (
     <>
-      <DonationsContainer>
-        <DonationSuggestionListContainer>
+      <div className={styles.donationsContainer}>
+        <div className={styles.donationSuggestionListContainer}>
           {suggestions && suggestions.map(renderSuggestion)}
-          <DonationContainer as="form" onSubmit={selectCustomDonation}>
-            <CustomInputContainer>
-              <CustomInput
+          <form
+            className={styles.donationContainer}
+            style={{
+              backgroundColor: theme.colors.primary.lightBackground,
+              color: theme.colors.primary.foreground,
+            }}
+            onSubmit={selectCustomDonation}
+          >
+            <div className={styles.customInputContainer}>
+              <input
+                className={styles.customInput}
                 value={customAmount}
                 onChange={onCustomAmountChange}
                 type="number"
               />
               <span>€</span>
-            </CustomInputContainer>
-            <CustomInputSubmit>
+            </div>
+            <button
+              className={styles.customInputSubmit}
+              style={{
+                backgroundColor: theme.colors.primary.background,
+              }}
+            >
               <ArrowIcon />
-            </CustomInputSubmit>
-          </DonationContainer>
-        </DonationSuggestionListContainer>
+            </button>
+          </form>
+        </div>
         {!!value && !!target && (
           <Gauge value={value} target={target}>
             <GaugeLabel value={value} target={target} />
@@ -156,7 +120,7 @@ const DonationForm: React.FC<Props> = ({
           close={hideModal}
           selectedAmount={selectedAmount}
         />
-      </DonationsContainer>
+      </div>
     </>
   );
 };
