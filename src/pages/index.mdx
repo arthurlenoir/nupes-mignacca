@@ -4,6 +4,7 @@ description: les 12 et 19 juin votons Julia Mignacca
 hide_table_of_contents: true
 ---
 
+import { Button } from "nupes-ui";
 import Calendar from "@site/src/components/Calendar";
 import DonationForm from "@site/src/components/DonationForm";
 import Gauge from "@site/src/components/Gauge";
@@ -36,7 +37,7 @@ Face au changement climatique et à la casse du service public, **ensemble nous 
 
 ## Soutenir la campagne
 
-<DonationForm suggestions={[20, 50, 100]} value={2650} target={4000}>
+<DonationForm suggestions={[20, 50, 100]} value={2944} target={4000}>
 
 Pour financer les dépenses liées à l’organisation d’événements, à l’achat de matériel, au fonctionnement de ce site, etc, nous avons besoin du soutien financier de chacun·e d’entre vous.
 
@@ -100,7 +101,16 @@ Pour financer les dépenses liées à l’organisation d’événements, à l’
 <Calendar
   googleApiKey="AIzaSyBB_V3txxLD4sjtR0xXayV2ZNcqD8Z_NIM"
   calendarId="mldcdlabt7ku11r1jnpq65juos@group.calendar.google.com"
+  limit={6}
+  preview
 />
+<Button
+  as="a"
+  href="/agenda"
+  variant="secondary-light"
+>
+  Voir tous les évènements
+</Button>
 
 ## Notre programme
 

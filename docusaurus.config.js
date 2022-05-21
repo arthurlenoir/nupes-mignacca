@@ -68,6 +68,16 @@ const config = {
           position: 'left',
           label: 'Programme',
         },
+        {
+          to: 'procuration',
+          position: 'left',
+          label: 'Procuration',
+        },
+        {
+          to: 'agenda',
+          position: 'left',
+          label: 'Nous Rencontrer',
+        },
         /*{
           to: 'notre-candidate',
           position: 'left',

@@ -64,13 +64,23 @@ const loadCalendarApi = (
   });
 };
 
-export const listUpcomingEvents = (calendarId: string) => {
+const getToday = () => {
+  const today = new Date();
+  today.setHours(0);
+  today.setMinutes(0);
+  today.setSeconds(0);
+  today.setMilliseconds(0);
+  return today;
+};
+
+export const listUpcomingEvents = (calendarId: string, limit: number) => {
   return window.gapi.client.calendar.events.list({
     calendarId,
     showDeleted: false,
     singleEvents: true,
-    maxResults: 6,
+    maxResults: limit,
     orderBy: "startTime",
+    timeMin: getToday().toISOString(),
   });
 };
 
