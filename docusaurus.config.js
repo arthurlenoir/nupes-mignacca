@@ -63,8 +63,7 @@ const config = {
           src: 'img/nupes-logo.svg',
         },
         items: [{
-          type: 'doc',
-          docId: 'index',
+          to: 'notre-programme',
           position: 'left',
           label: 'Programme',
         },

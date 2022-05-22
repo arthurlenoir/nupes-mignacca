@@ -2,10 +2,8 @@ import React from "react";
 import { MDXProvider } from "@mdx-js/react";
 import MDXComponents from "@theme/MDXComponents";
 import type { Props } from "@theme/MDXContent";
-import BlockQuote from "@site/src/components/BlockQuote";
-import ListItem from "@site/src/components/ListItem";
 import Text from "@site/src/components/Text";
-import { SubTitle, Title } from "nupes-ui";
+import { BlockQuote, ListItem, SubTitle, Title } from "nupes-ui";
 
 export default function MDXContent({ children }: Props): JSX.Element {
   return (
