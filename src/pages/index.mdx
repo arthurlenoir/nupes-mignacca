@@ -4,21 +4,30 @@ description: les 12 et 19 juin votons Julia Mignacca
 hide_table_of_contents: true
 ---
 
-import { Button } from "nupes-ui";
-import Calendar from "@site/src/components/Calendar";
+import { Button, Calendar, Header, Gauge, GaugeLabel, LogoSoup, NupesLogo } from "nupes-ui";
 import DonationForm from "@site/src/components/DonationForm";
-import Gauge from "@site/src/components/Gauge";
-import GaugeLabel from "@site/src/components/GaugeLabel";
-import Header from "@site/src/components/Header";
-import LogoSoup from "@site/src/components/LogoSoup";
-import NupesLogo from "@site/src/components/NupesLogo";
 import Text from "@site/src/components/Text";
 import Video from "@site/src/components/Video";
 
 import TelegramIcon from "@site/static/img/telegram.svg";
 
 <NupesLogo />
-<Header />
+
+<Header
+  backgroundSrc={require('../../static/img/cover-background.jpg').default}
+  src={require('../../static/img/julia-mignacca.png').default}
+  alt="Julia Mignacca"
+  sources={[
+    {
+      srcSet: require('../../static/img/julia-mignacca.webp').default,
+      type: 'image/webp',
+    },
+    {
+      srcSet: require('../../static/img/julia-mignacca.png').default,
+      type: 'image/png',
+    },
+  ]}
+/>
 
 **Les 12 et 19 juin** prochains ont lieu les élections législatives, le troisième tour
 de l'élection présidentielle qui permettra d'élire vos députés et de choisir le prochain
