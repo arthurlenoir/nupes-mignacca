@@ -59,6 +59,12 @@ const CompareProgram: React.FC = () => {
         sourceLink="https://www.latribune.fr/economie/france/les-francais-sont-favorables-a-une-augmentation-du-smic-814493.html"
       />
       <ProgramLine
+        title="réduire de 65% les gaz à effet de serre d'ici à 2030"
+        subTitle="et instaurer un ISF climatique"
+        percentage={77}
+        sourceLink="https://www.lejdd.fr/Politique/sondage-77-des-francais-souhaitent-le-retablissement-de-lisf-3833072"
+      />
+      <ProgramLine
         title="La retraite à 60 ans"
         subTitle="et porter le minimum vieillesse à 1063 €"
         percentage={71}
@@ -95,8 +101,8 @@ const CompareProgram: React.FC = () => {
         sourceLink="https://www.lefigaro.fr/sciences/les-francais-et-les-soignants-sont-inquiets-pour-l-avenir-de-l-hopital-20220516"
       />
       <ProgramLine
-        title="En finir avec Parcoursup"
-        subTitle="et supprimer la sélection à l’université"
+        title="Créer une allocation d’autonomie pour les jeunes"
+        subTitle="fixée au-dessus du seuil de pauvreté soit 1063 euros / mois"
       />
     </>
   );
