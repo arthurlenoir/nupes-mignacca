@@ -105,7 +105,7 @@ const config = {
             id: 'twitter'
           },
           {
-            href: 'https://www.facebook.com/julia.mignacca.71',
+            href: 'https://www.facebook.com/JuliaMignacca',
             label: 'Facebook',
             position: 'right',
             id: 'facebook'

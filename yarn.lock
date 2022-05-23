@@ -5379,10 +5379,10 @@ nth-check@~1.0.1:
   dependencies:
     boolbase "~1.0.0"
 
-nupes-ui@^0.0.37:
-  version "0.0.37"
-  resolved "https://registry.yarnpkg.com/nupes-ui/-/nupes-ui-0.0.37.tgz#bdfab88cc5a94f55a2cff0596a20211ebbd05556"
-  integrity sha512-2vwKQ0Sudt8fzd5S/PRkesTPpNl6cg2ScCpr+m35N6/L/SADGzElAJjuNqtLZYvOXIyFmhi3NXyDqIMeAaHDIA==
+nupes-ui@0.0.42:
+  version "0.0.42"
+  resolved "https://registry.yarnpkg.com/nupes-ui/-/nupes-ui-0.0.42.tgz#bea5666600783124a6f490fdbaf791c657f8fb3f"
+  integrity sha512-/0ZRIX8yAieshtoV/OrNgULG1bQMfg0HkJCtIVsvoEwVgQpXZJczvRhdhfjgS1EudzYqAfX8x1M3z/ZErgzXXQ==
   dependencies:
     styled-components "^5.3.5"
 

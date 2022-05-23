@@ -5,13 +5,17 @@ import type { Props } from "@theme/NavbarItem/NavbarNavLink";
 import IconExternalLink from "@theme/IconExternalLink";
 import isInternalUrl from "@docusaurus/isInternalUrl";
 import { isRegexpStringMatch } from "@docusaurus/theme-common";
-
-import TwitterLogo from "@site/static/img/twitter.svg";
-import FacebookLogo from "@site/static/img/facebook.svg";
-import InstagramLogo from "@site/static/img/instagram.svg";
-import TelegramLogo from "@site/static/img/telegram.svg";
+import { Icons } from "nupes-ui";
 
 const dropdownLinkActiveClass = "dropdown__link--active";
+
+const IconPerId: Record<string, React.FC | undefined> = {
+  facebook: Icons.FacebookIcon,
+  instagram: Icons.InstagramIcon,
+  telegram: Icons.TelegramIcon,
+  tiktok: Icons.TiktokIcon,
+  twitter: Icons.TwitterIcon,
+};
 
 export default function NavbarNavLink({
   activeBasePath,
@@ -49,54 +53,21 @@ export default function NavbarNavLink({
         ),
       };
 
-  if (id === "twitter") {
-    return (
-      <Link
-        href={prependBaseUrlToHref ? normalizedHref : href}
-        {...props}
-        {...linkContentProps}
-      >
-        <TwitterLogo width={28} height={28} />
-      </Link>
-    );
+  if (id) {
+    const Icon = IconPerId[id];
+    if (Icon) {
+      return (
+        <Link
+          href={prependBaseUrlToHref ? normalizedHref : href}
+          {...props}
+          {...linkContentProps}
+        >
+          <Icon />
+        </Link>
+      );
+    }
   }
-
-  if (id === "facebook") {
-    return (
-      <Link
-        href={prependBaseUrlToHref ? normalizedHref : href}
-        {...props}
-        {...linkContentProps}
-      >
-        <FacebookLogo width={28} height={28} />
-      </Link>
-    );
-  }
-
-  if (id === "instagram") {
-    return (
-      <Link
-        href={prependBaseUrlToHref ? normalizedHref : href}
-        {...props}
-        {...linkContentProps}
-      >
-        <InstagramLogo width={28} height={28} />
-      </Link>
-    );
-  }
-
-  if (id === "telegram") {
-    return (
-      <Link
-        href={prependBaseUrlToHref ? normalizedHref : href}
-        {...props}
-        {...linkContentProps}
-      >
-        <TelegramLogo width={28} height={28} />
-      </Link>
-    );
-  }
-
+  
   if (href) {
     return (
       <Link
