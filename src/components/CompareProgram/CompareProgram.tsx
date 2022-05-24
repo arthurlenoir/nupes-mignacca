@@ -28,7 +28,12 @@ const ProgramLine: React.FC<{
     </div>
     {percentage && sourceLink && (
       <Text>
-        <a href={sourceLink} target="_blank" className={styles.ProgLink}>
+        <a
+          href={sourceLink}
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.ProgLink}
+        >
           Vous êtes <Highlight small>{percentage}%</Highlight> à y être
           favorables.
         </a>
