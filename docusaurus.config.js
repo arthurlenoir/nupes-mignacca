@@ -62,16 +62,20 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Accueil',
+        title: 'Julia Mignacca',
         logo: {
           alt: 'NUPES Logo',
           src: 'img/nupes-logo.svg',
         },
         items: [{
+          to: 'index',
+          position: 'left',
+          label: 'Accueil',
+        }, {
           to: 'notre-programme',
           position: 'left',
           label: 'Programme',
-        },
+        }, 
         {
           to: 'procuration',
           position: 'left',

@@ -34,8 +34,8 @@ const ProgramLine: React.FC<{
           rel="noopener noreferrer"
           className={styles.ProgLink}
         >
-          Vous êtes <Highlight small>{percentage}%</Highlight> à y être
-          favorables.
+          Vous êtes <strong className={styles.percent}>{percentage}%</strong> à
+          y être favorables.
         </a>
       </Text>
     )}
@@ -64,7 +64,7 @@ const CompareProgram: React.FC = () => {
         sourceLink="https://www.latribune.fr/economie/france/les-francais-sont-favorables-a-une-augmentation-du-smic-814493.html"
       />
       <ProgramLine
-        title="réduire de 65% les gaz à effet de serre d'ici à 2030"
+        title="Réduire de 65% les gaz à effet de serre d'ici à 2030"
         subTitle="et instaurer un ISF climatique"
         percentage={77}
         sourceLink="https://www.lejdd.fr/Politique/sondage-77-des-francais-souhaitent-le-retablissement-de-lisf-3833072"
@@ -89,7 +89,7 @@ const CompareProgram: React.FC = () => {
       />
       <ProgramLine
         title="Instaurer un Référendum d’Initiative Citoyenne"
-        subTitle="et reconnaître le vote blanc"
+        subTitle="reconnaître le vote blanc et instaurer une 6e République"
         percentage={73}
         sourceLink="https://www.ifop.com/wp-content/uploads/2022/02/118859_PPT_RIC_2022.02.07.pdf"
       />

@@ -4,7 +4,15 @@ description: les 12 et 19 juin votons Julia Mignacca
 hide_table_of_contents: true
 ---
 
-import { Button, Calendar, Header, Gauge, GaugeLabel, LogoSoup, NupesLogo } from "nupes-ui";
+import {
+  Button,
+  Calendar,
+  Header,
+  Gauge,
+  GaugeLabel,
+  LogoSoup,
+  NupesLogo,
+} from "nupes-ui";
 import DonationForm from "@site/src/components/DonationForm";
 import Text from "@site/src/components/Text";
 import Video from "@site/src/components/Video";
@@ -14,17 +22,17 @@ import TelegramIcon from "@site/static/img/telegram.svg";
 <NupesLogo />
 
 <Header
-  backgroundSrc={require('../../static/img/cover-background.jpg').default}
-  src={require('../../static/img/julia-mignacca.png').default}
+  backgroundSrc={require("../../static/img/cover-background.jpg").default}
+  src={require("../../static/img/julia-mignacca.png").default}
   alt="Julia Mignacca"
   sources={[
     {
-      srcSet: require('../../static/img/julia-mignacca.webp').default,
-      type: 'image/webp',
+      srcSet: require("../../static/img/julia-mignacca.webp").default,
+      type: "image/webp",
     },
     {
-      srcSet: require('../../static/img/julia-mignacca.png').default,
-      type: 'image/png',
+      srcSet: require("../../static/img/julia-mignacca.png").default,
+      type: "image/png",
     },
   ]}
 />
@@ -46,6 +54,8 @@ Face au changement climatique et à la casse du service public, **ensemble nous 
 
 ## Soutenir la campagne
 
+#### Je possède des thunes
+
 <DonationForm suggestions={[20, 50, 100]} value={3191} target={4000}>
 
 Pour financer les dépenses liées à l’organisation d’événements, à l’achat de matériel, au fonctionnement de ce site, etc, nous avons besoin du soutien financier de chacun·e d’entre vous.
@@ -60,7 +70,7 @@ Pour financer les dépenses liées à l’organisation d’événements, à l’
     target="_blank"
     className="telegram-link"
   >
-    <TelegramIcon width={24} />
+    <TelegramIcon width={24} style={{ flexBasis: 24, minWidth: 24 }} />
     <Text as="span">Canal général</Text>
   </a>
   <div className="telegram-description">
@@ -75,7 +85,7 @@ Pour financer les dépenses liées à l’organisation d’événements, à l’
       target="_blank"
       className="telegram-link"
     >
-      <TelegramIcon width={24} />
+      <TelegramIcon width={24} style={{flexBasis: 24, minWidth: 24}} />
       <Text as="span">Secteur Montpellier - Castelnau</Text>
     </a>
     <div className="telegram-description">Montpellier, Castelnau-le-Lez</div>
@@ -86,7 +96,7 @@ Pour financer les dépenses liées à l’organisation d’événements, à l’
       target="_blank"
       className="telegram-link"
     >
-      <TelegramIcon width={24} />
+      <TelegramIcon width={24} style={{flexBasis: 24, minWidth: 24}} />
       <Text as="span">Secteur Centre</Text>
     </a>
     <div className="telegram-description">Clapiers, Montferrier-sur-Lez, Jacou, Le Crès, Vendargues, Baillargues, St-Brès, Castries, St-Geniès-des-Mourgues, Sussargues, Restinclières, Beaulieu, St-Drézéry, Montaud, Guzargues, Assas, Teyran</div>
@@ -98,7 +108,7 @@ Pour financer les dépenses liées à l’organisation d’événements, à l’
       target="_blank"
       className="telegram-link"
     >
-      <TelegramIcon width={24} />
+      <TelegramIcon width={24} style={{flexBasis: 24, minWidth: 24}} />
       <Text as="span">Secteur Est</Text>
     </a>
     <div className="telegram-description">Garrigues, Campagne, Galargues, Saussines, St-Hilaire-de-Beauvoir, St-Jean-de-Cornies, Boisseron, Entre-Vignes, St Séries, Villetelle, Saturargues</div>
@@ -111,15 +121,19 @@ Pour financer les dépenses liées à l’organisation d’événements, à l’
   googleApiKey="AIzaSyBB_V3txxLD4sjtR0xXayV2ZNcqD8Z_NIM"
   calendarId="mldcdlabt7ku11r1jnpq65juos@group.calendar.google.com"
   limit={6}
+  link="/agenda"
   preview
 />
-<Button
-  as="a"
-  href="/agenda"
-  variant="secondary-light"
->
-  Voir tous les évènements
-</Button>
+<div className="btn-container">
+  <Button
+    as="a"
+    href="/agenda"
+    variant="secondary"
+    className="calendar-btn-link"
+  >
+    Voir tous les évènements
+  </Button>
+</div>
 
 ## Notre programme
 

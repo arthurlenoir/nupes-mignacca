@@ -13,6 +13,8 @@
   --ifm-color-primary-light: #33925d;
   --ifm-color-primary-lighter: #359962;
   --ifm-color-primary-lightest: #3cad6e;
+  --ifm-link-color: #2e8555;
+  --ifm-link-color-hover: #205d3b;
   --ifm-code-font-size: 95%;
   --ifm-list-paragraph-margin: 0;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
@@ -68,13 +70,16 @@ ul {
   justify-content: center;
   align-items: center;
   flex: 1 1 1%;
-  margin-bottom: 24px;
+  margin-bottom: 32px;
 }
 .telegram-link {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   flex: 1 1 1%;
+  text-decoration: underline;
+  margin-bottom: 8px;
+  color: black;
 }
 .telegram-link svg {
   margin-right: 8px;
@@ -89,6 +94,18 @@ ul {
   padding: 0 8px;
   font-style: italic;
   text-align: center;
+}
+.btn-container {
+  padding: 8px 0 0;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+.navbar__link:hover, .navbar__link--active {
+  text-decoration: underline;
+  color: black;
 }
 @media (min-width: 997px) {
   .container
