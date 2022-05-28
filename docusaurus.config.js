@@ -46,10 +46,6 @@ const config = {
         docs: {
           routeBasePath: 'programme',
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -67,7 +63,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Julia Mignacca',
+        title: '',
         logo: {
           alt: 'NUPES Logo',
           src: 'img/nupes-logo.svg',
@@ -112,6 +108,12 @@ const config = {
             position: 'left',
             label: 'Présentation',
           },*/
+          {
+            href: 'mailto:julia@mignacca.fr',
+            label: 'Email',
+            position: 'right',
+            id: 'email'
+          },
           {
             href: 'https://twitter.com/JuliaMignacca',
             label: 'Twitter',

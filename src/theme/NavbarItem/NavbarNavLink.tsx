@@ -9,7 +9,11 @@ import { Icons } from "nupes-ui";
 
 const dropdownLinkActiveClass = "dropdown__link--active";
 
-const IconPerId: Record<string, React.FC | undefined> = {
+const IconPerId: Record<
+  string,
+  React.FC<{ height?: string | number, color?: string }> | undefined
+> = {
+  email: Icons.EmailIcon,
   facebook: Icons.FacebookIcon,
   instagram: Icons.InstagramIcon,
   telegram: Icons.TelegramIcon,
@@ -62,12 +66,12 @@ export default function NavbarNavLink({
           {...props}
           {...linkContentProps}
         >
-          <Icon />
+          <Icon height={28} color="#555" />
         </Link>
       );
     }
   }
-  
+
   if (href) {
     return (
       <Link
