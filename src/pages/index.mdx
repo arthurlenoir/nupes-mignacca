@@ -4,14 +4,19 @@ description: les 12 et 19 juin votons Julia Mignacca
 hide_table_of_contents: true
 ---
 
+import Translate from "@docusaurus/Translate";
 import {
+  BlockQuote,
   Button,
   Calendar,
   Header,
   Gauge,
   GaugeLabel,
+  ListItem,
   LogoSoup,
   NupesLogo,
+  SubTitle,
+  Title
 } from "nupes-ui";
 import DonationForm from "@site/src/components/DonationForm";
 import Text from "@site/src/components/Text";
@@ -37,32 +42,89 @@ import TelegramIcon from "@site/static/img/telegram.svg";
   ]}
 />
 
-**Les 12 et 19 juin** prochains ont lieu les élections législatives, le troisième tour
-de l'élection présidentielle qui permettra d'élire vos députés et de choisir le prochain
-gouvernement.
+<Text>
+  <Translate
+    id="index.intro1"
+    values={{
+      dates: (
+        <strong>
+          <Translate id="index.dates">Les 12 et 19 juin</Translate>
+        </strong>
+      ),
+    }}
+  />
+</Text>
 
-À cette occasion la gauche et les écologistes ont fait le choix historique
-de **se présenter unis** devant vous dans tout le pays.
+<Text>
+  <Translate
+    id="index.intro2"
+    values={{
+      sePresenterUnis: (
+        <strong>
+          <Translate id="index.sePresenterUnis">se présenter unis</Translate>
+        </strong>
+      ),
+    }}
+  />
+</Text>
 
-Je suis la candidate de cette
-nouvelle union sur **notre 3ème circonscription de l'Hérault** et j'en mesure toute la
-responsabilité.
+<Text>
+  <Translate
+    id="index.intro3"
+    values={{
+      notreCirconstription: (
+        <strong>
+          <Translate id="index.notreCirconstription">
+            notre 3ème circonscription de l'Hérault
+          </Translate>
+        </strong>
+      ),
+    }}
+  />
+</Text>
 
-Face au changement climatique et à la casse du service public, **ensemble nous pouvons gagner. **
+<Text>
+  <Translate
+    id="index.intro4"
+    values={{
+      nousPouvonsGagner: (
+        <strong>
+          <Translate id="index.nousPouvonsGagner">
+            ensemble nous pouvons gagner.
+          </Translate>
+        </strong>
+      ),
+    }}
+  />
+</Text>
 
-> Ensemble construisons cet autre monde possible !
+<BlockQuote>
+  <Translate>Ensemble construisons cet autre monde possible !</Translate>
+</BlockQuote>
 
-## Je participe à la campagne
+<Title variant="light-primary">
+  <Translate>Je participe à la campagne</Translate>
+</Title>
 
-#### Je soutiens la campagne
+<SubTitle variant="primary">
+  <Translate>Je soutiens la campagne</Translate>
+</SubTitle>
 
 <DonationForm suggestions={[20, 50, 100]} value={3191} target={4000}>
 
-Pour financer les dépenses liées à l’organisation d’événements, à l’achat de matériel, au fonctionnement de ce site, etc, nous avons besoin du soutien financier de chacun·e d’entre vous.
+<Text>
+  <Translate id="index.donationText">
+    Pour financer les dépenses liées à l’organisation d’événements, à l’achat de
+    matériel, au fonctionnement de ce site, etc, nous avons besoin du soutien
+    financier de chacun·e d’entre vous.
+  </Translate>
+</Text>
 
 </DonationForm>
 
-#### Je rejoins à la campagne
+<SubTitle variant="primary">
+  <Translate>Je rejoins à la campagne</Translate>
+</SubTitle>
 
 <div className="telegram-link-container">
   <a
@@ -71,10 +133,12 @@ Pour financer les dépenses liées à l’organisation d’événements, à l’
     className="telegram-link"
   >
     <TelegramIcon width={24} style={{ flexBasis: 24, minWidth: 24 }} />
-    <Text as="span">Canal général</Text>
+    <Text as="span">
+      <Translate>Canal général</Translate>
+    </Text>
   </a>
   <div className="telegram-description">
-    le canal général d'échange entre militant·es
+    <Translate>le canal général d'échange entre militant·es</Translate>
   </div>
 </div>
 
@@ -86,9 +150,9 @@ Pour financer les dépenses liées à l’organisation d’événements, à l’
       className="telegram-link"
     >
       <TelegramIcon width={24} style={{flexBasis: 24, minWidth: 24}} />
-      <Text as="span">Secteur Montpellier - Castelnau</Text>
+      <Text as="span"><Translate>Secteur Montpellier - Castelnau</Translate></Text>
     </a>
-    <div className="telegram-description">Montpellier, Castelnau-le-Lez</div>
+    <div className="telegram-description"><Translate id="telegram.villes1">Montpellier, Castelnau-le-Lez</Translate></div>
   </div>
   <div className="telegram-link-container">
     <a
@@ -97,9 +161,9 @@ Pour financer les dépenses liées à l’organisation d’événements, à l’
       className="telegram-link"
     >
       <TelegramIcon width={24} style={{flexBasis: 24, minWidth: 24}} />
-      <Text as="span">Secteur Centre</Text>
+      <Text as="span"><Translate>Secteur Centre</Translate></Text>
     </a>
-    <div className="telegram-description">Clapiers, Montferrier-sur-Lez, Jacou, Le Crès, Vendargues, Baillargues, St-Brès, Castries, St-Geniès-des-Mourgues, Sussargues, Restinclières, Beaulieu, St-Drézéry, Montaud, Guzargues, Assas, Teyran</div>
+    <div className="telegram-description"><Translate id="telegram.villes2">Clapiers, Montferrier-sur-Lez, Jacou, Le Crès, Vendargues, Baillargues, St-Brès, Castries, St-Geniès-des-Mourgues, Sussargues, Restinclières, Beaulieu, St-Drézéry, Montaud, Guzargues, Assas, Teyran</Translate></div>
   </div>
 
   <div className="telegram-link-container">
@@ -109,43 +173,121 @@ Pour financer les dépenses liées à l’organisation d’événements, à l’
       className="telegram-link"
     >
       <TelegramIcon width={24} style={{flexBasis: 24, minWidth: 24}} />
-      <Text as="span">Secteur Est</Text>
+      <Text as="span"><Translate>Secteur Est</Translate></Text>
     </a>
-    <div className="telegram-description">Garrigues, Campagne, Galargues, Saussines, St-Hilaire-de-Beauvoir, St-Jean-de-Cornies, Boisseron, Entre-Vignes, St Séries, Villetelle, Saturargues</div>
+    <div className="telegram-description"><Translate id="telegram.villes3">Garrigues, Campagne, Galargues, Saussines, St-Hilaire-de-Beauvoir, St-Jean-de-Cornies, Boisseron, Entre-Vignes, St Séries, Villetelle, Saturargues</Translate></div>
   </div>
 </div>
 
-### Nous rencontrer
+<Title variant="light-secondary">
+  <Translate>Nous rencontrer</Translate>
+</Title>
 
 <Calendar
   googleApiKey="AIzaSyBB_V3txxLD4sjtR0xXayV2ZNcqD8Z_NIM"
   calendarId="mldcdlabt7ku11r1jnpq65juos@group.calendar.google.com"
   limit={6}
-  link="/agenda"
+  link="agenda"
   preview
 />
 <div className="btn-container">
   <Button
     as="a"
-    href="/agenda"
+    href="agenda"
     variant="secondary"
     className="calendar-btn-link"
   >
-    Voir tous les évènements
+    <Translate>Voir tous les évènements</Translate>
   </Button>
 </div>
 
-## Notre programme
+<Title variant="light-primary">
+  <Translate>Notre programme</Translate>
+</Title>
 
-Avec la majorité, soit 289 députés, il est possible de gouverner le pays
-et d’imposer un Premier ministre à Macron !
+<Text>
+  <Translate id="index.introProgramme">
+    Avec la majorité, soit 289 députés, il est possible de gouverner le pays et
+    d’imposer un Premier ministre à Macron !
+  </Translate>
+</Text>
 
-- Retour à la **retraite à 60 ans**
-- Augmentation du **SMIC à 1 500 €**
-- **Reconstruire l'école publique** laïque et gratuite
-- Passer à une **agriculture écologique et paysanne**
-- Passer à la **6ème République** pour une véritable démocratie
+<ul>
+  <ListItem>
+    <Translate
+      id="programme.mesure1"
+      values={{
+        boldText: (
+          <strong>
+            <Translate id="programme.mesure1Bold" />
+          </strong>
+        ),
+      }}
+    />
+  </ListItem>
+  <ListItem>
+    <Translate
+      id="programme.mesure2"
+      values={{
+        boldText: (
+          <strong>
+            <Translate id="programme.mesure2Bold" />
+          </strong>
+        ),
+      }}
+    />
+  </ListItem>
+  <ListItem>
+    <Translate
+      id="programme.mesure3"
+      values={{
+        boldText: (
+          <strong>
+            <Translate id="programme.mesure3Bold" />
+          </strong>
+        ),
+      }}
+    />
+  </ListItem>
+  <ListItem>
+    <Translate
+      id="programme.mesure4"
+      values={{
+        boldText: (
+          <strong>
+            <Translate id="programme.mesure4Bold" />
+          </strong>
+        ),
+      }}
+    />
+  </ListItem>
+  <ListItem>
+    <Translate
+      id="programme.mesure5"
+      values={{
+        boldText: (
+          <strong>
+            <Translate id="programme.mesure5Bold" />
+          </strong>
+        ),
+      }}
+    />
+  </ListItem>
+</ul>
 
-### Avec le soutien de :
+<div className="btn-container">
+  <Button
+    as="a"
+    href="notre-programme"
+    variant="primary"
+    className="calendar-btn-link"
+  >
+    <Translate>Voir tout le programme</Translate>
+  </Button>
+</div>
+
+<Title variant="light-secondary">
+  <Translate>Avec le soutien de :</Translate>
+</Title>
 
 <LogoSoup />

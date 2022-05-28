@@ -17,6 +17,7 @@
   --ifm-link-color-hover: #205d3b;
   --ifm-code-font-size: 95%;
   --ifm-list-paragraph-margin: 0;
+  --ifm-blockquote-font-size: 22px;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   --ifm-font-family-base: "Acumin Pro", system-ui, -apple-system, Segoe UI,
     Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont,

@@ -1,0 +1,38 @@
+{
+  "title": {
+    "message": "Julia Mignacca",
+    "description": "The title in the navbar"
+  },
+  "item.label.Accueil": {
+    "message": "Accuelh",
+    "description": "Navbar item with label Accueil"
+  },
+  "item.label.Programme": {
+    "message": "Nòstre programma",
+    "description": "Navbar item with label Programme"
+  },
+  "item.label.Procuration": {
+    "message": "Procuration",
+    "description": "Navbar item with label Procuration"
+  },
+  "item.label.Nous Rencontrer": {
+    "message": "Nos encontrar",
+    "description": "Navbar item with label Nous Rencontrer"
+  },
+  "item.label.Twitter": {
+    "message": "Twitter",
+    "description": "Navbar item with label Twitter"
+  },
+  "item.label.Facebook": {
+    "message": "Facebook",
+    "description": "Navbar item with label Facebook"
+  },
+  "item.label.Instagram": {
+    "message": "Instagram",
+    "description": "Navbar item with label Instagram"
+  },
+  "item.label.Telegram": {
+    "message": "Telegram",
+    "description": "Navbar item with label Telegram"
+  }
+}

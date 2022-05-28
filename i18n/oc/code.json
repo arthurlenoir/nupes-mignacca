@@ -1,0 +1,404 @@
+{
+  "index.intro1": {
+    "message": "{dates} an luòc las eleccions legislativas, lo tresen torn de l'eleccion presidenciala que permetis d'elegir los deputats e de causir lo govèrn que ven."
+  },
+  "index.intro2": {
+    "message": "En aqueste occasion, l'esquèra e los ecologics an fach la causida istorica de {sePresenterUnis} en davant de vos dins tot lo país."
+  },
+  "index.intro3": {
+    "message": "Soi la candidata d'aqueste nòva union sus {notreCirconstription} e n'en mesuri tota la responsabilitat."
+  },
+  "index.intro4": {
+    "message": "Fàcia al cambiament climatic e a la copa del servici public, {nousPouvonsGagner}"
+  },
+  "index.dates": {
+    "message": "Los 12 et 19 de junh"
+  },
+  "index.sePresenterUnis": {
+    "message": "se presentar amassa"
+  },
+  "index.notreCirconstription": {
+    "message": "la nòstra 3èna circonscripcion d'Herault"
+  },
+  "index.nousPouvonsGagner": {
+    "message": "amassa podèm ganhar."
+  },
+  "Ensemble construisons cet autre monde possible !": {
+    "message": "Amassa bastissèm aqueste autre mond possible !"
+  },
+  "Je participe à la campagne": {
+    "message": "Participi a la campanha"
+  },
+  "Je soutiens la campagne": {
+    "message": "Sosteni la campanha"
+  },
+  "index.donationText": {
+    "message": "Per finançar las depensas ligadas a l'organisacion d'eveniments, a la compra de material, al foncionnament d'aqueste siti, etc, avèm besonh del sostèn financial de cadun.a d'entre vòs."
+  },
+  "donation.sur": {
+    "message": " sus "
+  },
+  "Je rejoins à la campagne": {
+    "message": "Rejúnhi la campanha"
+  },
+  "Canal général": {
+    "message": "Canal general"
+  },
+  "le canal général d'échange entre militant·es": {
+    "message": "lo canal general d'escambi entre militant·as"
+  },
+  "Secteur Montpellier - Castelnau": {
+    "message": "Sector Montpelhièr-Castelnau"
+  },
+  "Secteur Centre": {
+    "message": "Sector Centre"
+  },
+  "Secteur Est": {
+    "message": "Sector Est"
+  },
+  "telegram.villes1": {
+    "message": "Montpellier, Castelnau-le-Lez"
+  },
+  "telegram.villes2": {
+    "message": "Clapiers, Montferrier-sur-Lez, Jacou, Le Crès, Vendargues, Baillargues, St-Brès, Castries, St-Geniès-des-Mourgues, Sussargues, Restinclières, Beaulieu, St-Drézéry, Montaud, Guzargues, Assas, Teyran"
+  },
+  "telegram.villes3": {
+    "message": "Garrigues, Campagne, Galargues, Saussines, St-Hilaire-de-Beauvoir, St-Jean-de-Cornies, Boisseron, Entre-Vignes, St Séries, Villetelle, Saturargues"
+  },
+  "Nous rencontrer": {
+    "message": "Nos encontrar"
+  },
+  "Voir tous les évènements": {
+    "message": "Veire totis los eveniments"
+  },
+  "Notre programme": {
+    "message": "Nòstre programma"
+  },
+  "Avec le soutien de :": {
+    "message": "Amb lo sosten de :"
+  },
+  "index.introProgramme": {
+    "message": "Amb la majorité, siga 289 deputats, es possible de governar lo país e d'impausar un Primier ministre a Macron !"
+  },
+  "programme.mesure1": {
+    "message": "Passar a la {boldText} per une vertadièra democracia"
+  },
+  "programme.mesure2": {
+    "message": "Retorn a la {boldText}"
+  },
+  "programme.mesure3": {
+    "message": "Augmentacion del {boldText}"
+  },
+  "programme.mesure4": {
+    "message": "{boldText} laica e agratis"
+  },
+  "programme.mesure5": {
+    "message": "Passar a una {boldText}"
+  },
+  "programme.mesure1Bold": {
+    "message": "6ena Republica"
+  },
+  "programme.mesure2Bold": {
+    "message": "retirada a 60 ans"
+  },
+  "programme.mesure3Bold": {
+    "message": "SMIC a 1500€"
+  },
+  "programme.mesure4Bold": {
+    "message": "Tornar bastir l'escòla publica"
+  },
+  "programme.mesure5Bold": {
+    "message": "agricultura ecologica e paisana"
+  },
+  "compareProgram.pourcentageFavorable": {
+    "message": "Vous êtes {percentage} à y être favorables."
+  },
+  "Le RN": {
+    "message": "Le RN"
+  },
+  "Augmenter le SMIC à 1500 €": {
+    "message": "Augmentar lo SMIC a 1500€"
+  },
+  "et accompagner les TPE/PME": {
+    "message": "e accompahnar las TPE/PME"
+  },
+  "Réduire de 65% les gaz à effet de serre d'ici à 2030": {
+    "message": "Réduire de 65% les gaz à effet de serre d'ici à 2030"
+  },
+  "et instaurer un ISF climatique": {
+    "message": "et instaurer un ISF climatique"
+  },
+  "La retraite à 60 ans": {
+    "message": "La retraite à 60 ans"
+  },
+  "et porter le minimum vieillesse à 1063 €": {
+    "message": "et porter le minimum vieillesse à 1063 €"
+  },
+  "Le plein à 1,40 € le litre": {
+    "message": "Le plein à 1,40 € le litre"
+  },
+  "et bloquer le prix des produits de premières nécessité": {
+    "message": "et bloquer le prix des produits de premières nécessité"
+  },
+  "Arrêter les pesticides": {
+    "message": "Arrêter les pesticides"
+  },
+  "et accompagner financièrement les agriculteurs à la transition": {
+    "message": "et accompagner financièrement les agriculteurs à la transition"
+  },
+  "Instaurer un Référendum d’Initiative Citoyenne": {
+    "message": "Instaurer un Référendum d’Initiative Citoyenne"
+  },
+  "reconnaître le vote blanc et instaurer une 6e République": {
+    "message": "reconnaître le vote blanc et instaurer une 6e République"
+  },
+  "Rouvrir les lignes ferroviaires du quotidien": {
+    "message": "Rouvrir les lignes ferroviaires du quotidien"
+  },
+  "avec un plan national de soutien massif au développement des transports collectifs": {
+    "message": "avec un plan national de soutien massif au développement des transports collectifs"
+  },
+  "Reconstruire l’hôpital public": {
+    "message": "Reconstruire l’hôpital public"
+  },
+  "rouvrir des services d’urgences et mettre fin à la tarification à l’acte": {
+    "message": "rouvrir des services d’urgences et mettre fin à la tarification à l’acte"
+  },
+  "Créer une allocation d’autonomie pour les jeunes": {
+    "message": "Créer une allocation d’autonomie pour les jeunes"
+  },
+  "fixée au-dessus du seuil de pauvreté soit 1063 euros / mois": {
+    "message": "fixée au-dessus du seuil de pauvreté soit 1063 euros / mois"
+  },
+  "theme.ErrorPageContent.title": {
+    "message": "This page crashed.",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "Try again",
+    "description": "The label of the button to try again when the page crashed"
+  },
+  "theme.NotFound.title": {
+    "message": "Page Not Found",
+    "description": "The title of the 404 page"
+  },
+  "theme.NotFound.p1": {
+    "message": "We could not find what you were looking for.",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "Please contact the owner of the site that linked you to the original URL and let them know their link is broken.",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "Close",
+    "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "Scroll back to top",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.blog.archive.title": {
+    "message": "Archive",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "Archive",
+    "description": "The page & hero description of the blog archive page"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "Blog list page navigation",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "Newer Entries",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "Older Entries",
+    "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "One min read|{readingTime} min read",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "Read more about {title}",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "theme.blog.post.readMore": {
+    "message": "Read More",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "Blog post page navigation",
+    "description": "The ARIA label for the blog posts pagination"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "Newer Post",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "Older Post",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.blog.post.plurals": {
+    "message": "One post|{count} posts",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} tagged with \"{tagName}\"",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "View All Tags",
+    "description": "The label of the link targeting the tag list page"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "Switch between dark and light mode (currently {mode})",
+    "description": "The ARIA label for the navbar color mode toggle"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "dark mode",
+    "description": "The name for the dark color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "light mode",
+    "description": "The name for the light color mode"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "Home page",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "Breadcrumbs",
+    "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.docs.DocCard.categoryDescription": {
+    "message": "{count} items",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "Docs pages navigation",
+    "description": "The ARIA label for the docs pagination"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "Previous",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.docs.paginator.next": {
+    "message": "Next",
+    "description": "The label used to navigate to the next doc"
+  },
+  "theme.DocSidebarItem.toggleCollapsedCategoryAriaLabel": {
+    "message": "Toggle the collapsible sidebar category '{label}'",
+    "description": "The ARIA label to toggle the collapsible sidebar category"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "One doc tagged|{count} docs tagged",
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "{nDocsTagged} with \"{tagName}\"",
+    "description": "The title of the page for a docs tag"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "Version: {versionLabel}"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "This is unreleased documentation for {siteTitle} {versionLabel} version.",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "This is documentation for {siteTitle} {versionLabel}, which is no longer actively maintained.",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "For up-to-date documentation, see the {latestVersionLink} ({versionLabel}).",
+    "description": "The label used to tell the user to check the latest version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "latest version",
+    "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.common.editThisPage": {
+    "message": "Edit this page",
+    "description": "The link label to edit the current page"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "Direct link to heading",
+    "description": "Title for link to heading"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": " on {date}",
+    "description": "The words used to describe on which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": " by {user}",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "Last updated{atDate}{byUser}",
+    "description": "The sentence used to display when a page has been last updated, and by who"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "Versions",
+    "description": "The label for the navbar versions dropdown on mobile view"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "Skip to main content",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "On this page",
+    "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "Tags:",
+    "description": "The label alongside a tag list"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "Blog recent posts navigation",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "Copied",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "Copy code to clipboard",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "Copy",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "Toggle word wrap",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "Languages",
+    "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "Collapse sidebar",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "Collapse sidebar",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← Back to main menu",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "Expand sidebar",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "Expand sidebar",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  }
+}

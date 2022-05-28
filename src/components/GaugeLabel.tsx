@@ -1,3 +1,4 @@
+import Translate from "@docusaurus/Translate";
 import { Highlight } from "nupes-ui";
 import React from "react";
 import styled from "styled-components";
@@ -17,7 +18,10 @@ const StyledText = styled(Text)`
 const GaugeLabel: React.FC<Props> = ({ value, target }) => (
   <StyledText>
     <Highlight small>{renderMoney(value)}</Highlight>
-    <span> sur {renderMoney(target)}</span>
+    <span>
+      <Translate id="donation.sur"> sur </Translate>
+      {renderMoney(target)}
+    </span>
   </StyledText>
 );
 
