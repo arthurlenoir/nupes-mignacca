@@ -25,8 +25,13 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'fr-FR',
-    locales: ['fr-FR', 'oc'],
+    defaultLocale: 'fr',
+    locales: ['fr', 'oc'],
+    localeConfigs: {
+      fr: {
+        htmlLang: 'fr-FR',
+      },
+    },
   },
   plugins: ['docusaurus-plugin-matomo', 'docusaurus-plugin-sass'],
   scripts: [{
@@ -130,6 +135,10 @@ const config = {
             label: 'Telegram',
             position: 'right',
             id: 'telegram'
+          },
+          {
+            type: 'localeDropdown',
+            position: 'right',
           },
         ],
       },
