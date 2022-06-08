@@ -92,4 +92,12 @@ export const supporters: SupporterType[] = [
     occupation: "Illustratrice et Graphiste en e-learning",
     message: "",
   },
+  {
+    firstName: "Carine",
+    lastName: "Barbier",
+    city: "Castelnau-Le-Lez",
+    occupation: "Conseillère municipale",
+    message: "",
+  }
 ];
+ 
