@@ -78,9 +78,9 @@ const config = {
           label: 'Programme',
         }, 
         {
-          to: 'procuration',
+          to: 'comite-de-soutien',
           position: 'left',
-          label: 'Procuration',
+          label: 'Nos soutiens',
         },
         {
           to: 'agenda',
