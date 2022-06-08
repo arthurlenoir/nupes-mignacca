@@ -1,5 +1,5 @@
 import React from "react";
-import styled, { css } from "styled-components";
+import styles from "./Video.module.css";
 
 interface Props {
   src: string;
@@ -7,31 +7,10 @@ interface Props {
   title?: string;
 }
 
-const DEFAULT_RATIO = 0.5625;
-
-interface ContainerProps {
-  ratio?: number;
-}
-
-const Container = styled.div<ContainerProps>`
-  position: relative;
-  ${({ ratio }) => css`
-    padding-top: ${(ratio || DEFAULT_RATIO) * 100}%;
-  `}
-`;
-
-const IframeContainer = styled.div`
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-`;
-
 const Video: React.FC<Props> = ({ src, title, thumbnail }) => {
   return (
-    <Container>
-      <IframeContainer>
+    <div className={styles.videoContainer}>
+      <div className={styles.iframeContainer}>
         <iframe
           title={title}
           src={src}
@@ -41,8 +20,8 @@ const Video: React.FC<Props> = ({ src, title, thumbnail }) => {
           height="100%"
           frameBorder="0"
         ></iframe>
-      </IframeContainer>
-    </Container>
+      </div>
+    </div>
   );
 };
 
