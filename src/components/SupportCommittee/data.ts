@@ -2,6 +2,36 @@ import { SupporterType } from "../Supporter/types";
 
 export const supporters: SupporterType[] = [
   {
+    firstName: "Alenka",
+    lastName: "Doulain",
+    city: "Montpellier",
+    occupation:
+      "Conseillère à la Métropole et Conseillère Municipale de Montpellier",
+    message: "",
+  },
+  {
+    firstName: "René",
+    lastName: "Revol",
+    city: "Grabels",
+    occupation: "Maire de Grabels",
+    message: "",
+  },
+  {
+    firstName: "Robert",
+    lastName: "Trinquier",
+    city: "Jacou",
+    occupation:
+      "Maire adjoint de jacou de 1989-2016 · Membre de la direction départementale du PCF",
+    message: "",
+  },
+  {
+    firstName: "Laura",
+    lastName: "Falco",
+    city: "Montpellier",
+    occupation: "Membre du collectif des Essentielles du lien &amp; du soin",
+    message: "",
+  },
+  {
     firstName: "Denis",
     lastName: "Pèbre",
     city: "Lunel",
@@ -22,13 +52,6 @@ export const supporters: SupporterType[] = [
     lastName: "Florès",
     city: "Lunel",
     occupation: "Agent territorial",
-    message: "",
-  },
-  {
-    firstName: "René",
-    lastName: "Revol",
-    city: "Grabels",
-    occupation: "Maire de Grabels",
     message: "",
   },
   {
@@ -56,33 +79,10 @@ export const supporters: SupporterType[] = [
     message: "",
   },
   {
-    firstName: "Alenka",
-    lastName: "Doulain",
-    city: "Montpellier",
-    occupation:
-      "Conseillère à la Métropole et Conseillère Municipale de Montpellier",
-    message: "",
-  },
-  {
-    firstName: "Laura",
-    lastName: "Falco",
-    city: "Montpellier",
-    occupation: "Membre du collectif des Essentielles du lien &amp; du soin",
-    message: "",
-  },
-  {
     firstName: "Frédéric",
     lastName: "Fesquet",
     city: "Prades-le-Lez",
     occupation: "Élu, adjoint à la Mairie de Prades-le-Les",
-    message: "",
-  },
-  {
-    firstName: "Robert",
-    lastName: "Trinquier",
-    city: "Jacou",
-    occupation:
-      "Maire adjoint de jacou de 1989-2016 · Membre de la direction départementale du PCF",
     message: "",
   },
   {
