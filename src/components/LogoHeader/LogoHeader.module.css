@@ -1,0 +1,26 @@
+.logoHeaderContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoHeaderTitle {
+  margin: 24px auto !important;
+  color: var(--ifm-navbar-link-color);
+}
+
+.firstName {
+  font-family: "Acumin Pro Condensed Black";
+  font-weight: normal;
+}
+
+.lastName {
+  font-size: 68px;
+  line-height: 48px;
+  font-weight: normal;
+}
+
+.logoContainer {
+  flex: 0 1 500px;
+}
