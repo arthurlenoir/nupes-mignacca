@@ -1,17 +1,13 @@
 import { SubTitle, Text } from "nupes-ui";
 import React, { useCallback, useEffect, useState } from "react";
-import styled from "styled-components";
 import Video from "../Video";
 import { Playlist, PlaylistVideo } from "./types";
+import styles from "./PeertubePlaylist.module.css";
 
 interface Props {
   peertubeHost: string;
   playlistId: string;
 }
-
-const VideoContainer = styled.div`
-  margin: 0 0 32px;
-`;
 
 const PeertubePlaylist: React.FC<Props> = ({ peertubeHost, playlistId }) => {
   const [playlist, setPlaylist] = useState<Playlist>();
@@ -24,19 +20,23 @@ const PeertubePlaylist: React.FC<Props> = ({ peertubeHost, playlistId }) => {
 
   const renderPlaylistVideo = useCallback(
     (playlistVideo: PlaylistVideo) => (
-      <VideoContainer key={playlistVideo.id}>
+      <div key={playlistVideo.id} className={styles.VideoContainer}>
         <SubTitle>{playlistVideo.video.name}</SubTitle>
         <Video
           src={`https://${peertubeHost}${playlistVideo.video.embedPath}`}
         />
-      </VideoContainer>
+      </div>
     ),
     [peertubeHost]
   );
 
   if (!playlist) return <Text>chargement en cours…</Text>;
 
-  return <>{playlist.data.map(renderPlaylistVideo)}</>;
+  return (
+    <div className={styles.VideosContainer}>
+      {playlist.data.map(renderPlaylistVideo)}
+    </div>
+  );
 };
 
 export default PeertubePlaylist;

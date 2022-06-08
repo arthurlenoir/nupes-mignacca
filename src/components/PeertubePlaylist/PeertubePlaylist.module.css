@@ -1,0 +1,12 @@
+.VideosContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.VideoContainer {
+  flex: 1 1 400px;
+  margin: 0 16px 32px;
+}
