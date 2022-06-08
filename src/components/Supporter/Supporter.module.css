@@ -1,0 +1,25 @@
+.Supporter {
+  margin: 0 16px 32px;
+  flex: 1 1 400px;
+}
+
+.Name {
+  font-family: "Acumin Pro Condensed Black";
+  margin: 0 0 8px;
+}
+
+.Highlighted {
+  font-weight: normal !important;
+}
+
+.Content {
+  display: flex;
+  align-items: flex-start;
+}
+
+.Message {
+  margin: 0;
+  padding: 2px 0 0;
+  flex: 1;
+  font-size: 15px;
+}

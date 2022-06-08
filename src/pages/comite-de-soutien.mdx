@@ -5,11 +5,23 @@ hide_table_of_contents: true
 ---
 
 import { Button, LogoSoup } from "nupes-ui";
+import SupportCommittee from "@site/src/components/SupportCommittee";
 import PeertubePlaylist from "@site/src/components/PeertubePlaylist";
 
 > L'union historique que représente la NUPES peut nous permettre de gouverner notre pays.
 
 > Merci à celles et ceux qui m'ont apporté leur soutien.
+
+<div className="btn-container">
+  <Button
+    as="a"
+    href="/rejoindre-comite-de-soutien"
+    variant="primary"
+    className="calendar-btn-link"
+  >
+    Je rejoins le comité de soutien
+  </Button>
+</div>
 
 ## Avec le soutien de :
 
@@ -17,6 +29,10 @@ import PeertubePlaylist from "@site/src/components/PeertubePlaylist";
   peertubeHost="peertube.noussommes.org"
   playlistId="00e10766-d8ee-4235-8ba4-f018c75fb0ad"
 />
+
+### Ainsi que le soutien de :
+
+<SupportCommittee />
 
 #### et vous ?
 
@@ -29,7 +45,7 @@ Montrez votre soutien à la candidate de Julia Mignacca :
     variant="secondary"
     className="calendar-btn-link"
   >
-    Je rejoins de comité de soutien
+    Je rejoins le comité de soutien
   </Button>
 </div>
 
