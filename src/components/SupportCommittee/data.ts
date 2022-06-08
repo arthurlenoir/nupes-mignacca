@@ -28,7 +28,7 @@ export const supporters: SupporterType[] = [
     firstName: "Laura",
     lastName: "Falco",
     city: "Montpellier",
-    occupation: "Membre du collectif des Essentielles du lien &amp; du soin",
+    occupation: "Membre du collectif des Essentielles du lien & du soin",
     message: "",
   },
   {
