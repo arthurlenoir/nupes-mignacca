@@ -4,8 +4,9 @@
 }
 
 .Name {
-  font-family: "Acumin Pro Condensed Black";
+  font-family: "Acumin Pro";
   margin: 0 0 8px;
+  font-weight: normal;
 }
 
 .Highlighted {
@@ -22,4 +23,6 @@
   padding: 2px 0 0;
   flex: 1;
   font-size: 15px;
+  font-style: italic;
+  opacity: 0.85;
 }
