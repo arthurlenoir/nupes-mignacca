@@ -158,4 +158,39 @@ export const supporters: SupporterType[] = [
     message:
       "Militant et citoyen actif dans le monde associatif depuis des années (distribution alimentaire, éducation populaire, soutien scolaire), je fais pleinement confiance à Julia Mignacca pour défendre l’intérêt des travailleurs et des travailleuses et de notre bien commun à tous et toutes, la Terre et son écosystème.",
   },
+  {
+    firstName: "Dorian",
+    lastName: "Paquet",
+    city: "Jacou",
+    occupation: "Étudiant en lettres",
+    message: "",
+  },
+  {
+    firstName: "Benjamin",
+    lastName: "Mouret",
+    city: "Beaulieu",
+    occupation: "Directeur Technique Artistique - jeu vidéo",
+    message: "Je soutiens Julia Mignacca et la NUPES pour un avenir plus respectueux de l'intérêt collectif et de l'environnement, pour un partage des richesses plus juste, et un avenir en commun.",
+  },
+  {
+    firstName: "Hugues",
+    lastName: "Ferrand",
+    city: "Castelnau-le-Lez",
+    occupation: "Conseiller municipal",
+    message: "Je soutiens la candidature de Julia Mignaca pour porter les valeurs d'écologie, de politique sociale et de solidarité dont nous avons besoin. Elle sera compétente, efficace et d'une probité sans faille pour agir au plus haut niveau et représenter l'espoir d'un meilleur avenir pour les générations futures.",
+  },
+  {
+    firstName: "Valérie",
+    lastName: "Pagan",
+    city: "Castries",
+    occupation: "Enseignante",
+    message: "Soutien total! ✌Force à vous!! Pour la justice sociale et écologique! Pour le respect des services publics!",
+  },
+  {
+    firstName: "Joëlle",
+    lastName: "Arneodo",
+    city: "Castelnau-le-Lez",
+    occupation: "Retraitée Assistante de service social",
+    message: "Pour le maintien de services publics de qualité, notamment hôpitaux et services de soins, enseignement scolaire et universitaire, recherche, justice, etc… Pour le soutien à une agriculture plus saine, à une meilleure préservation de la nature. Pour une réflexion de fond vers la relocalisation de l'économie. Pour l'engagement dans une société plus solidaire, plus équitable ...etc...",
+  },
 ];

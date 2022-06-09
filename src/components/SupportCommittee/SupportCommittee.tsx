@@ -9,7 +9,7 @@ interface Props {
   limit?: number;
 }
 
-//const shuffle = () => 0.5 - Math.random();
+const shuffle = () => 0.5 - Math.random();
 
 const renderSupporter = (supporter: SupporterType, index: number) => (
   <Supporter key={index} {...supporter} />
@@ -22,8 +22,8 @@ const SupportCommittee: React.FC<Props> = ({ limit = 6 }) => {
     setShowAll((value) => !value);
   }, [setShowAll]);
 
-  //const shuffledSupporters = useMemo(() => supporters.sort(shuffle), []);
-  const filteredSupporters = showAll ? supporters : supporters.slice(0, limit);
+  const shuffledSupporters = useMemo(() => [...supporters.slice(0, 4), ...supporters.slice(4).sort(shuffle)], []);
+  const filteredSupporters = showAll ? shuffledSupporters : shuffledSupporters.slice(0, limit);
 
   return (
     <>
