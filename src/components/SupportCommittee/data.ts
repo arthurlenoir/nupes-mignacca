@@ -93,11 +93,76 @@ export const supporters: SupporterType[] = [
     message: "",
   },
   {
-    firstName: "Carine",
-    lastName: "Barbier",
-    city: "Castelnau-Le-Lez",
-    occupation: "Conseillère municipale",
+    firstName: "Arthur",
+    lastName: "Lenoir",
+    city: "Montpellier",
+    occupation: "Ingénieur · Militant écologiste",
     message: "",
-  }
+  },
+  {
+    firstName: "Florence",
+    lastName: "Maurin",
+    city: "Montpellier",
+    occupation: "Ingénieur",
+    message: "",
+  },
+  {
+    firstName: "Arthur",
+    lastName: "Lenoir",
+    city: "Saint-Brès",
+    occupation: "",
+    message:
+      "Je soutiens la candidate Julia pour une action politique économique environnementale et sociale",
+  },
+  {
+    firstName: "Dominique",
+    lastName: "Faure-Billet",
+    city: "Saturargues",
+    occupation: "Ingénieur informatique",
+    message: "Enfin une union de la gauche avec un vrai programme de gauche.",
+  },
+  {
+    firstName: "Véronique",
+    lastName: "Adell",
+    city: "Saturargues",
+    occupation: "Agent technique",
+    message: "",
+  },
+  {
+    firstName: "Gérald",
+    lastName: "Perrier",
+    city: "Saturargues",
+    occupation: "Retraité",
+    message: "",
+  },
+  {
+    firstName: "Henri",
+    lastName: "Marchesi",
+    city: "Castelnau-le-Lez",
+    occupation: "Retraité · Communiste",
+    message:
+      "L'élection de Julia permettra de faire reculer la politique libérale du gouvernement Macron qui ne fait rien pour réduire la crise climatique et détruit tous les acquis sociaux.",
+  },
+  {
+    firstName: "Margaux",
+    lastName: "Cosne",
+    city: "Montpellier",
+    occupation: "Médecin généraliste",
+    message: "",
+  },
+  {
+    firstName: "Paul",
+    lastName: "Muraille",
+    city: "Saussines",
+    occupation: "Maître de conférence",
+    message: "",
+  },
+  {
+    firstName: "Corentin",
+    lastName: "Crochemore",
+    city: "Castelnau-le-Lez",
+    occupation: "Étudiant histoire-géographie (enseignement)",
+    message:
+      "Militant et citoyen actif dans le monde associatif depuis des années (distribution alimentaire, éducation populaire, soutien scolaire), je fais pleinement confiance à Julia Mignacca pour défendre l’intérêt des travailleurs et des travailleuses et de notre bien commun à tous et toutes, la Terre et son écosystème.",
+  },
 ];
- 
