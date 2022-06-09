@@ -15,7 +15,7 @@ const Supporter: React.FC<SupporterType> = ({
       <Highlight className={styles.Highlighted} small>
         {firstName} {lastName}
       </Highlight>{" "}
-      · {occupation} · {city}
+      {occupation && `· ${occupation}`} · {city}
     </h4>
     {message && <p className={styles.Message}>{message}</p>}
   </div>

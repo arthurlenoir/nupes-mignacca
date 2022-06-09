@@ -102,13 +102,6 @@ export const supporters: SupporterType[] = [
   {
     firstName: "Florence",
     lastName: "Maurin",
-    city: "Montpellier",
-    occupation: "Ingénieur",
-    message: "",
-  },
-  {
-    firstName: "Arthur",
-    lastName: "Lenoir",
     city: "Saint-Brès",
     occupation: "",
     message:
