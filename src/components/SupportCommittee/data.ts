@@ -349,9 +349,23 @@ export const supporters: SupporterType[] = [
   },
   {
     firstName: "Carine",
-    lastName: "BARBIER",
+    lastName: "Barbier",
     city: "Castelnau-Le-Lez",
     occupation: "Conseillère municipale",
+    message: "",
+  },
+  {
+    firstName: "Jean-Laurent",
+    lastName: "Noé",
+    city: "Saint-Christol",
+    occupation: "Ingénieur",
+    message: "",
+  },
+  {
+    firstName: "Jean-Philippe",
+    lastName: "Aynie",
+    city: "Montpellier",
+    occupation: "",
     message: "",
   },
 ];
