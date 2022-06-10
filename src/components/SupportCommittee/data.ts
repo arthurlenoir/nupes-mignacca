@@ -170,35 +170,40 @@ export const supporters: SupporterType[] = [
     lastName: "Mouret",
     city: "Beaulieu",
     occupation: "Directeur Technique Artistique - jeu vidéo",
-    message: "Je soutiens Julia Mignacca et la NUPES pour un avenir plus respectueux de l'intérêt collectif et de l'environnement, pour un partage des richesses plus juste, et un avenir en commun.",
+    message:
+      "Je soutiens Julia Mignacca et la NUPES pour un avenir plus respectueux de l'intérêt collectif et de l'environnement, pour un partage des richesses plus juste, et un avenir en commun.",
   },
   {
     firstName: "Hugues",
     lastName: "Ferrand",
     city: "Castelnau-le-Lez",
     occupation: "Conseiller municipal",
-    message: "Je soutiens la candidature de Julia Mignaca pour porter les valeurs d'écologie, de politique sociale et de solidarité dont nous avons besoin. Elle sera compétente, efficace et d'une probité sans faille pour agir au plus haut niveau et représenter l'espoir d'un meilleur avenir pour les générations futures.",
+    message:
+      "Je soutiens la candidature de Julia Mignaca pour porter les valeurs d'écologie, de politique sociale et de solidarité dont nous avons besoin. Elle sera compétente, efficace et d'une probité sans faille pour agir au plus haut niveau et représenter l'espoir d'un meilleur avenir pour les générations futures.",
   },
   {
     firstName: "Valérie",
     lastName: "Pagan",
     city: "Castries",
     occupation: "Enseignante",
-    message: "Soutien total! ✌Force à vous!! Pour la justice sociale et écologique! Pour le respect des services publics!",
+    message:
+      "Soutien total! ✌Force à vous!! Pour la justice sociale et écologique! Pour le respect des services publics!",
   },
   {
     firstName: "Joëlle",
     lastName: "Arneodo",
     city: "Castelnau-le-Lez",
     occupation: "Retraitée Assistante de service social",
-    message: "Pour le maintien de services publics de qualité, notamment hôpitaux et services de soins, enseignement scolaire et universitaire, recherche, justice, etc… Pour le soutien à une agriculture plus saine, à une meilleure préservation de la nature. Pour une réflexion de fond vers la relocalisation de l'économie. Pour l'engagement dans une société plus solidaire, plus équitable ...etc...",
+    message:
+      "Pour le maintien de services publics de qualité, notamment hôpitaux et services de soins, enseignement scolaire et universitaire, recherche, justice, etc… Pour le soutien à une agriculture plus saine, à une meilleure préservation de la nature. Pour une réflexion de fond vers la relocalisation de l'économie. Pour l'engagement dans une société plus solidaire, plus équitable ...etc...",
   },
   {
     firstName: "Myriam",
     lastName: "Bui-Xuan",
     city: "Clapiers",
     occupation: "Adjointe au maire déléguée à l’action sociale ",
-    message: "Julia Mignacca à l’Assemblée, garantie d’une vraie rupture avec le néolibéralisme, rupture nécessaire pour conjuguer justice climatique et justice sociale.",
+    message:
+      "Julia Mignacca à l’Assemblée, garantie d’une vraie rupture avec le néolibéralisme, rupture nécessaire pour conjuguer justice climatique et justice sociale.",
   },
   {
     firstName: "Maxime",
@@ -211,7 +216,8 @@ export const supporters: SupporterType[] = [
     firstName: "Françoise",
     lastName: "Argenson",
     city: "Catelanu-le-Lez",
-    occupation: "Cadre opérationnel Pôle emploi · Présidente d'une association de parents d'élèves",
+    occupation:
+      "Cadre opérationnel Pôle emploi · Présidente d'une association de parents d'élèves",
     message: "",
   },
   {
@@ -225,7 +231,8 @@ export const supporters: SupporterType[] = [
     firstName: "Christian",
     lastName: "Bouchet",
     city: "Castelnau-le-Lez",
-    occupation: "Président association des riverains Sablas Sablassou à Castelnau Le Lez",
+    occupation:
+      "Président association des riverains Sablas Sablassou à Castelnau Le Lez",
     message: "",
   },
   {
@@ -233,7 +240,8 @@ export const supporters: SupporterType[] = [
     lastName: "Mora",
     city: "Castelnau-Le-Lez",
     occupation: "Retraitée bibliothécaire",
-    message: "Bibliothécaire à la retraite, habitant Castelnau-Le-Lez depuis 30 ans, guidée par des valeurs humanistes, je suis engagée depuis toujours dans ma vie professionnelle et dans ma vie associative pour plus de justice sociale, pour le droit de chacune et de chacun à vivre dans la dignité, pour le bien commun. Julia Mignacca représente des partis et des forces de progrès, elle porte des valeurs fortes qui sont les miennes. Je suis convaincue qu'elle les défendra avec énergie, conviction et sera à l'écoute des habitants de la circonscription.",
+    message:
+      "Bibliothécaire à la retraite, habitant Castelnau-Le-Lez depuis 30 ans, guidée par des valeurs humanistes, je suis engagée depuis toujours dans ma vie professionnelle et dans ma vie associative pour plus de justice sociale, pour le droit de chacune et de chacun à vivre dans la dignité, pour le bien commun. Julia Mignacca représente des partis et des forces de progrès, elle porte des valeurs fortes qui sont les miennes. Je suis convaincue qu'elle les défendra avec énergie, conviction et sera à l'écoute des habitants de la circonscription.",
   },
   {
     firstName: "Samuel",
@@ -268,21 +276,24 @@ export const supporters: SupporterType[] = [
     lastName: "Baïbarac",
     city: "Castries",
     occupation: "Retraité · Militant syndical",
-    message: "Pour un 3eme tour victorieux, et un 4eme tour social qui nous permettra de mettre en œuvre le programme de la NUPES, je vote et j'appelle à voter pour Julia.",
+    message:
+      "Pour un 3eme tour victorieux, et un 4eme tour social qui nous permettra de mettre en œuvre le programme de la NUPES, je vote et j'appelle à voter pour Julia.",
   },
   {
     firstName: "Mina",
     lastName: "Brisset",
     city: "Montferrier-sur-Lez",
     occupation: "Jeunes Ecologistes",
-    message: "Julia Mignacca est la première candidate à une élection qui me donne autant d'espoir. J'ai 18 ans et je suis heureuse, vraiment heureuse, de pouvoir voter par conviction et m'engager, et espérer faire gagner la gauche écologiste !",
+    message:
+      "Julia Mignacca est la première candidate à une élection qui me donne autant d'espoir. J'ai 18 ans et je suis heureuse, vraiment heureuse, de pouvoir voter par conviction et m'engager, et espérer faire gagner la gauche écologiste !",
   },
   {
     firstName: "Rémi",
     lastName: "Bouix",
     city: "Castries",
     occupation: "Conseiller Municipal de Castries",
-    message: "Julia incarne l'union historique de la gauche et des écologistes, qui est porteuse d'espoirs de victoire !",
+    message:
+      "Julia incarne l'union historique de la gauche et des écologistes, qui est porteuse d'espoirs de victoire !",
   },
   {
     firstName: "Philippe",
@@ -296,7 +307,8 @@ export const supporters: SupporterType[] = [
     lastName: "Gasiglia",
     city: "Entre-vignes",
     occupation: "Élu Mairie Entre-vignes",
-    message: "Nous partageons de nombreuses valeurs communes et nous œuvrons chacun à notre niveau pour les transformer en réalité quotidienne !",
+    message:
+      "Nous partageons de nombreuses valeurs communes et nous œuvrons chacun à notre niveau pour les transformer en réalité quotidienne !",
   },
   {
     firstName: "Nicolas",
@@ -310,7 +322,8 @@ export const supporters: SupporterType[] = [
     lastName: "Pignard",
     city: "Teyran",
     occupation: "Cadre informatique",
-    message: "Je soutiens Julia qui porte les valeurs écologiques et de justice sociale dans lesquelles je crois.  ",
+    message:
+      "Je soutiens Julia qui porte les valeurs écologiques et de justice sociale dans lesquelles je crois.  ",
   },
   {
     firstName: "Audrey",
@@ -331,6 +344,14 @@ export const supporters: SupporterType[] = [
     lastName: "Gély",
     city: "Lunel",
     occupation: "Opérateur/ Syndicaliste",
-    message: "Tout mon soutien pour la candidature de Julia sur la troisième circonscription de l'Hérault qui représente la N.U.P.E.S. Amicalement Stéphan Gély",
+    message:
+      "Tout mon soutien pour la candidature de Julia sur la troisième circonscription de l'Hérault qui représente la N.U.P.E.S. Amicalement Stéphan Gély",
+  },
+  {
+    firstName: "Carine",
+    lastName: "BARBIER",
+    city: "Castelnau-Le-Lez",
+    occupation: "Conseillère municipale",
+    message: "",
   },
 ];
