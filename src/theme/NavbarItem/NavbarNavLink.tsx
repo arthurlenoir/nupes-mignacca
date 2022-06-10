@@ -11,7 +11,7 @@ const dropdownLinkActiveClass = "dropdown__link--active";
 
 const IconPerId: Record<
   string,
-  React.FC<{ height?: string | number, color?: string }> | undefined
+  React.FC<{ height?: string | number; color?: string }> | undefined
 > = {
   email: Icons.EmailIcon,
   facebook: Icons.FacebookIcon,
@@ -65,6 +65,7 @@ export default function NavbarNavLink({
           href={prependBaseUrlToHref ? normalizedHref : href}
           {...props}
           {...linkContentProps}
+          className={`${props.className} navbar-link-${id}`}
         >
           <Icon height={28} color="#555" />
         </Link>
@@ -97,6 +98,7 @@ export default function NavbarNavLink({
       })}
       {...props}
       {...linkContentProps}
+      className={`${props.className} navbar-link-${id}`}
     />
   );
 }

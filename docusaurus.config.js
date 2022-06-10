@@ -85,7 +85,13 @@ const config = {
         {
           to: 'agenda',
           position: 'left',
-          label: 'Nous Rencontrer',
+          label: 'Agenda',
+        },
+        {
+          to: 'procuration',
+          position: 'left',
+          label: 'Procuration',
+          id: 'procuration',
         },
         /*{
           to: 'notre-candidate',
@@ -137,6 +143,12 @@ const config = {
             label: 'Telegram',
             position: 'right',
             id: 'telegram'
+          },
+          {
+            href: 'https://vm.tiktok.com/ZMN8QNQ2P/',
+            label: 'tiktok',
+            position: 'right',
+            id: 'tiktok'
           },
           {
             type: 'localeDropdown',

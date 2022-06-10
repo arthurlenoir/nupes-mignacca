@@ -112,6 +112,28 @@ ul {
   text-decoration: underline;
   color: black;
 }
+.navbar--fixed-top .navbar-link-procuration {
+  display: none;
+}
+.navbar--fixed-top .menu__list-item .navbar-link-procuration {
+  display: flex;
+}
+.navbar-sidebar__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.menu__list.menu__list-inline {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 16px 0;
+}
+.menu__list.menu__list-inline .menu__list-item {
+  display: inline-block;
+}
+
 @media (min-width: 997px) {
   .container
     .generatedIndexPage_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocCategoryGeneratedIndexPage-styles-module {
