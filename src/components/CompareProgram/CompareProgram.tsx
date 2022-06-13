@@ -23,9 +23,6 @@ const ProgramLine: React.FC<{
       <div className={clsx(styles.ColCandidate, styles.OtherCandidate)}>
         <Icons.CrossIcon width={40} />
       </div>
-      <div className={clsx(styles.ColCandidate, styles.OtherCandidate)}>
-        <Icons.CrossIcon width={40} />
-      </div>
     </div>
     {percentage && sourceLink && (
       <Text>
@@ -61,11 +58,6 @@ const CompareProgram: React.FC = () => {
         </div>
         <div className={clsx(styles.ColCandidate, styles.OtherCandidate)}>
           <SubTitle>Macron</SubTitle>
-        </div>
-        <div className={clsx(styles.ColCandidate, styles.OtherCandidate)}>
-          <SubTitle>
-            <Translate>Le RN</Translate>
-          </SubTitle>
         </div>
       </div>
       <ProgramLine
