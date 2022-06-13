@@ -485,7 +485,7 @@ export const supporters: SupporterType[] = [
     lastName: "Carrere",
     city: "Vias",
     occupation: "Retraité",
-    message: "Parce que le monde est en danger, parce que la santé va mal, l'éducation va mal, tous nos services publics vont mal, parce que le dérèglement climatique impacte l'avenir de notre territoire et sa capacité à nourrir ses habitants, il faut "renverser la table", changer nos moyens de production et de consommation, prendre résolument des directives pour préserver notre environnement et protéger les plus fragiles. Julia incarne ce combat qu'il nous faut mener pour rompre ce cycle infernal où on consomme plus que la terre ne produit et où les plus riches sont toujours plus riches et le nombre de pauvres augmentent toujours plus. Julia doit aller à l'Assemblée National où sa jeunesse, sa pugnacité et sa ténacité permettront de relever ce défi majeur de notre Histoire.",
+    message: "Parce que le monde est en danger, parce que la santé va mal, l'éducation va mal, tous nos services publics vont mal, parce que le dérèglement climatique impacte l'avenir de notre territoire et sa capacité à nourrir ses habitants, il faut \"renverser la table\", changer nos moyens de production et de consommation, prendre résolument des directives pour préserver notre environnement et protéger les plus fragiles. Julia incarne ce combat qu'il nous faut mener pour rompre ce cycle infernal où on consomme plus que la terre ne produit et où les plus riches sont toujours plus riches et le nombre de pauvres augmentent toujours plus. Julia doit aller à l'Assemblée National où sa jeunesse, sa pugnacité et sa ténacité permettront de relever ce défi majeur de notre Histoire.",
   },
   {
     firstName: "Patrick",
