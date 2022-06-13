@@ -67,7 +67,7 @@ export default function NavbarNavLink({
           {...linkContentProps}
           className={`${props.className} navbar-link-${id}`}
         >
-          <Icon height={28} color="#555" />
+          <Icon height={22} color="#555" />
         </Link>
       );
     }
