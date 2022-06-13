@@ -76,7 +76,7 @@ export const supporters: SupporterType[] = [
     city: "Prades-le-Lez",
     occupation:
       "Directeur Maison des Adolescents · Candidat EELV aux Départementales 2021",
-    message: "",
+    message: "une formidable future députée ",
   },
   {
     firstName: "Frédéric",
@@ -465,5 +465,33 @@ export const supporters: SupporterType[] = [
     city: "Clapiers",
     occupation: "Conseiller Municipal",
     message: "Je partage totalement la vision de l'écologie de Julia avec qui j'ai travaillé sur des problèmes métropolitains dans le passé. J'apprécie son dynamisme et sa rectitude de pensée. Elle fera une excellente députée. J'apporte tout mon soutien actif a sa campagne! Uni.e.s, nous enverrons la gauche et l'écologie à l'Assemblée pour contrer la politique antisociale et écocide du gouvernement Macron 2.",
+  },
+  {
+    firstName: "Fanny",
+    lastName: "Pebre",
+    city: "Saint-Bres",
+    occupation: "",
+    message: "Tous ensemble pour un avenir meilleur ",
+  },
+  {
+    firstName: "Anna",
+    lastName: "Midol Monnet",
+    city: "Castries",
+    occupation: "Boulangère",
+    message: "",
+  },
+  {
+    firstName: "Jean-Jacques",
+    lastName: "Carrere",
+    city: "Vias",
+    occupation: "Retraité",
+    message: "Parce que le monde est en danger, parce que la santé va mal, l'éducation va mal, tous nos services publics vont mal, parce que le dérèglement climatique impacte l'avenir de notre territoire et sa capacité à nourrir ses habitants, il faut "renverser la table", changer nos moyens de production et de consommation, prendre résolument des directives pour préserver notre environnement et protéger les plus fragiles. Julia incarne ce combat qu'il nous faut mener pour rompre ce cycle infernal où on consomme plus que la terre ne produit et où les plus riches sont toujours plus riches et le nombre de pauvres augmentent toujours plus. Julia doit aller à l'Assemblée National où sa jeunesse, sa pugnacité et sa ténacité permettront de relever ce défi majeur de notre Histoire.",
+  },
+  {
+    firstName: "Patrick",
+    lastName: "Brechotteau",
+    city: "Jacou",
+    occupation: "Conseiller municipal JACOU citoyenne écologique et sociale",
+    message: "Julia une députée pour porter les revendications écologiques et sociales de la population jacoumarde et de la troisième circonscription de l Hérault à l'Assemblée Nationale.",
   },
 ];
