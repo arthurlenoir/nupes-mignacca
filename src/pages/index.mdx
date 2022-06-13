@@ -10,6 +10,7 @@ import {
   Button,
   Calendar,
   Header,
+  Highlight,
   Gauge,
   GaugeLabel,
   ListItem,
@@ -27,7 +28,10 @@ import TelegramIcon from "@site/static/img/telegram.svg";
 
 <LogoHeader />
 
-<Video title="Julia Mignacca députée 2022 · Clip de campagne" src="https://peertube.stream/videos/embed/4590c172-f648-4c76-8d67-f122890864d4" />
+<Video
+  title="Julia Mignacca députée 2022 · Clip de campagne"
+  src="https://peertube.stream/videos/embed/4590c172-f648-4c76-8d67-f122890864d4"
+/>
 
 <Text> </Text>
 
@@ -92,6 +96,61 @@ import TelegramIcon from "@site/static/img/telegram.svg";
 <BlockQuote>
   <Translate>Ensemble construisons cet autre monde possible !</Translate>
 </BlockQuote>
+
+<Title variant="light-secondary">
+  <Translate>Absent dimanche ?</Translate>
+</Title>
+
+<Text>
+  <Translate id="index.procuration1">
+    En faisant une procuration je permet à quelqu'un de confiance de voter à ma
+    place.
+  </Translate>
+</Text>
+
+<Text>
+  <Translate id="index.procuration2">
+    Je participe ainsi à faire enfin gagner l'écologie et la gauche rassemblée.
+  </Translate>
+</Text>
+
+<div className="btn-container">
+  <Button
+    as="a"
+    href="https://actionpopulaire.fr/procuration/donner-ma-procuration/"
+    target="_blank"
+    variant="secondary"
+    className="calendar-btn-link"
+  >
+    <Translate>je fais une procuration</Translate>
+  </Button>
+</div>
+
+<br />
+<br />
+
+<SubTitle variant="secondary">
+  <Translate>Doublez votre vote</Translate>
+</SubTitle>
+
+<Text>
+  <Translate id="index.procuration3">
+    En 5 minutes seulement, doublez votre impact en prenant la procuration d'une
+    personne absente le jour du vote.
+  </Translate>
+</Text>
+
+<div className="btn-container">
+<Button
+    as="a"
+    href="https://actionpopulaire.fr/procuration/prendre-une-procuration/"
+    target="_blank"
+    variant="secondary-light"
+    className="calendar-btn-link"
+  >
+    Je me porte volontaire
+  </Button>
+</div>
 
 <Title variant="light-primary">
   <Translate>Je participe à la campagne</Translate>
