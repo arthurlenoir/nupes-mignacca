@@ -14,6 +14,27 @@
   "index.dates": {
     "message": "Los 12 et 19 de junh"
   },
+  "Absent·e dimanche ?": {
+    "message": "ABSENT·A DIMENGE ?"
+  },
+  "index.procuration1": {
+    "message": "En fasent una procuracion, permèti a qualqu'un de fisança de votar per ièu."
+  },
+  "index.procuration2": {
+    "message": "Aital participi a faire ganhar l'ecologia e l'esquèra amassada."
+  },
+  "je fais une procuration": {
+    "message": "Fai una procuracion"
+  },
+  "Doublez votre vote": {
+    "message": "Doblatz lo vòstre vote"
+  },
+  "index.procuration3": {
+    "message": "En 5 minutas pas mai, doblatz lo vòstre impact en prenent la procuracion d'una persona absenta lo jorn del vote."
+  },
+  "Je me porte volontaire": {
+    "message": "Me pòrti volontari"
+  },
   "index.sePresenterUnis": {
     "message": "se presentar amassa"
   },
