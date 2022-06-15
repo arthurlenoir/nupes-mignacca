@@ -24,7 +24,7 @@ const SupportCommittee: React.FC<Props> = ({ limit = 6 }) => {
 
   const shuffledSupporters = useMemo(() => [...supporters.slice(0, 4), ...supporters.slice(4).sort(shuffle)], []);
   const filteredSupporters = showAll ? shuffledSupporters : shuffledSupporters.slice(0, limit);
-
+  console.log("filteredSupporters", filteredSupporters.length);
   return (
     <>
       <div className={styles.Container}>
