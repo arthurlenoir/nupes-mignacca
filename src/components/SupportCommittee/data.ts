@@ -744,4 +744,25 @@ export const supporters: SupporterType[] = [
     occupation: "Maire honoraire de Clapiers",
     message: "",
   },
+  {
+    firstName: "Assia",
+    lastName: "Chramti",
+    city: "Montpellier",
+    occupation: "sans emploi (AAH)",
+    message: "je vous soutiens à 200%",
+  },
+  {
+    firstName: "Jordan",
+    lastName: "Homps",
+    city: "Castelnau-Le-Lez",
+    occupation: "Enseignant de Physique-Chimie",
+    message: "Que Jaurès soit avec toi ✌",
+  },
+  {
+    firstName: "Françoise",
+    lastName: "Dieval",
+    city: "Castelnau-Le-Lez",
+    occupation: "",
+    message: "Allez Julia ! Dernière ligne droite ! ",
+  },
 ];
